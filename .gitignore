@@ -1,0 +1,34 @@
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Environments
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# IDE
+.vscode/
+.idea/
+
+# Generated runs
+artifacts/
+result*.json
+single-round*.json
+replay-*.json
+efficiency-comparison.json
+
+# Local Claude instructions
+CLAUDE.local.md

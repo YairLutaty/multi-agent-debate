@@ -1,0 +1,874 @@
+{
+  "comparison": [
+    {
+      "baseline_variant": "single_round_one_shot",
+      "estimated_cost": "0",
+      "input_tokens": 10451,
+      "latency_seconds": -26.224954542994965,
+      "model_calls": 2,
+      "output_tokens": 157,
+      "research_utilization": 0.020072290685466676,
+      "summary_policy_compliance": 0,
+      "synthesis_representation": 0.014040992170377131,
+      "target_variant": "two_round_one_shot",
+      "team_novelty": -0.03448275862068961,
+      "total_tokens": 10608
+    },
+    {
+      "baseline_variant": "single_round_one_shot",
+      "estimated_cost": "0",
+      "input_tokens": 24518,
+      "latency_seconds": 92.76428295805817,
+      "model_calls": 4,
+      "output_tokens": 1716,
+      "research_utilization": -0.008618690751138913,
+      "summary_policy_compliance": 0,
+      "synthesis_representation": -0.021855503377670504,
+      "target_variant": "hierarchical_single_round",
+      "team_novelty": -0.02614379084967322,
+      "total_tokens": 26234
+    }
+  ],
+  "efficiency_report_version": "1.0",
+  "limitations": [
+    "Local zero pricing excludes hardware, electricity, and personnel cost.",
+    "User-supplied rates are hypothetical estimates, not provider pricing claims.",
+    "Token availability depends on metadata returned by Ollama and LangChain.",
+    "One controlled topic is not statistically representative.",
+    "Metric v1.0 does not measure factual correctness or persuasiveness."
+  ],
+  "pricing": {
+    "input_cost_per_million": "0",
+    "output_cost_per_million": "0",
+    "pricing_basis": "local_zero_default"
+  },
+  "provenance": {
+    "efficiency_report_version": "1.0",
+    "implementation_commit": "4c79e6bebcf314e798cfcd306d42675fe0ff52fa",
+    "metric_version": "1.0",
+    "model": "qwen3:8b",
+    "reasoning": false,
+    "run_timestamp_utc": "2026-08-06T05:59:38.242408Z",
+    "temperature": 0.0,
+    "usage_extraction_version": "1.0"
+  },
+  "replay_source": {
+    "consolidated_evidence_sha256": "b536b315b4c136f1456a8f8470f1abe3f6205ee24db9f811f37077a169296c4f",
+    "decomposition_sha256": "85c6ec20f592ea214a6286c0797ad233ea32ab0873e9f089f0f4b87ff4354b97",
+    "question": "Should governments provide universal basic income to all adult citizens?",
+    "question_complexity": "complex",
+    "source_artifact_path": "experiments/runs/m2_1b2b_ubi_qwen3_8b.json",
+    "source_sha256": "6d88274129f2ae6d1f708847d300a00f76f953bc1d42fbd493bef7f190c506c7",
+    "subquestions": [
+      "What are the economic impacts of implementing a universal basic income program in different countries?",
+      "How does universal basic income affect labor market participation and employment rates?",
+      "What are the fiscal implications of funding a universal basic income for governments?"
+    ],
+    "team_a_stance": "Support the proposition stated in the question.",
+    "team_b_stance": "Oppose the proposition stated in the question."
+  },
+  "variants": [
+    {
+      "architecture": "one-shot-single-round-replay",
+      "completed_rounds": 1,
+      "cost_estimate": {
+        "estimated_cost": "0",
+        "input_cost_per_million": "0",
+        "output_cost_per_million": "0",
+        "pricing_basis": "local_zero_default",
+        "status": "available",
+        "unavailable_reason": null
+      },
+      "efficiency": {
+        "all_generated_words": 435,
+        "completed_rounds": 1,
+        "input_tokens": 15941,
+        "latency_seconds": 58.60167895897757,
+        "model_calls": 3,
+        "output_tokens": 513,
+        "tokens_per_call": 5484.666666666667,
+        "tokens_per_visible_output_word": 37.82528735632184,
+        "total_tokens": 16454,
+        "visible_output_words": 435
+      },
+      "final_visible_outputs": {
+        "neutral_synthesis": "The debate over whether governments should provide universal basic income (UBI) to all adult citizens centers on its potential benefits and risks. Proponents argue that UBI can improve mental health outcomes, particularly for women and lone parents, and may enhance school attendance, employment, and community health without increasing negative behaviors. They also highlight administrative efficiencies, such as streamlining welfare programs and enabling tax reforms that could reduce burdens on businesses and individuals. Additionally, UBI is seen as a way to consolidate existing social benefits, potentially reducing government costs and improving fiscal flexibility.\n\nOpponents counter that UBI may lead to reduced labor market participation, with studies showing recipients working fewer hours, experiencing longer unemployment spells, and seeing a decline in individual income. These effects could undermine economic productivity and fiscal sustainability. Critics also raise concerns about the potential for UBI to shift resources away from those in greatest need, alter the relationship between citizens and government, and increase taxes or national debt. They argue that UBI may weaken incentives to work and fail to address the core weaknesses of existing safety nets.\n\nThe central tradeoff lies in balancing the potential for UBI to reduce inequality and improve well-being against the risks of reduced labor participation and fiscal strain. The uncertainty revolves around the long-term effects of UBI on economic productivity, the effectiveness of UBI in addressing poverty without disincentivizing work, and the feasibility of funding UBI without compromising other public services or increasing taxes.",
+        "team_a_argument": "Universal Basic Income (UBI) offers a transformative approach to addressing economic inequality and enhancing financial stability for all citizens. Research indicates that UBI can lead to improved mental health outcomes, as evidenced by studies showing potential reductions in common mental disorders among specific population subgroups like women and lone parents. Additionally, UBI has been associated with increased school attendance, employment, and community health, without corresponding increases in negative behaviors such as unemployment claims or alcohol abuse. Furthermore, UBI can streamline government spending by consolidating existing welfare programs, reducing administrative costs, and allowing for tax reforms that could lower burdens on businesses and individuals. These findings support the proposition that governments should provide universal basic income to all adult citizens as a viable and beneficial policy initiative.",
+        "team_b_argument": "The opponent's argument highlights potential mental health benefits and administrative efficiencies of UBI, but the most compelling counterpoint is the risk of reduced labor market participation. Research shows that UBI recipients worked fewer hours, experienced longer unemployment spells, and saw a decline in individual income, undermining economic productivity and fiscal sustainability. This directly challenges the viability of UBI as a broadly beneficial policy."
+      },
+      "generated_stage_word_counts": [
+        {
+          "round_number": 1,
+          "stage": "team_a_argument",
+          "team": "team_a",
+          "word_count": 126
+        },
+        {
+          "round_number": 1,
+          "stage": "team_b_argument",
+          "team": "team_b",
+          "word_count": 64
+        },
+        {
+          "round_number": 1,
+          "stage": "neutral_synthesis",
+          "team": "system",
+          "word_count": 245
+        }
+      ],
+      "metric_token_efficiency": {
+        "research_utilization_per_1k_tokens": 0.013921577813562142,
+        "summary_policy_compliance": 1,
+        "synthesis_representation_per_1k_tokens": 0.03290188832523847,
+        "team_novelty_per_1k_tokens": 0.06077549532028686
+      },
+      "metrics": {
+        "metric_version": "1.0",
+        "research_utilization": {
+          "findings": [
+            {
+              "finding_index": 1,
+              "synthesis_coverage": 0.16666666666666666,
+              "team_a_coverage": 0.19444444444444445,
+              "team_b_coverage": 0.06944444444444445,
+              "utilization": 0.19444444444444445
+            },
+            {
+              "finding_index": 2,
+              "synthesis_coverage": 0.23622047244094488,
+              "team_a_coverage": 0.2047244094488189,
+              "team_b_coverage": 0.05511811023622047,
+              "utilization": 0.23622047244094488
+            },
+            {
+              "finding_index": 3,
+              "synthesis_coverage": 0.12037037037037036,
+              "team_a_coverage": 0.1111111111111111,
+              "team_b_coverage": 0.05555555555555555,
+              "utilization": 0.12037037037037036
+            },
+            {
+              "finding_index": 4,
+              "synthesis_coverage": 0.23404255319148937,
+              "team_a_coverage": 0.18085106382978725,
+              "team_b_coverage": 0.0851063829787234,
+              "utilization": 0.23404255319148937
+            },
+            {
+              "finding_index": 5,
+              "synthesis_coverage": 0.2465753424657534,
+              "team_a_coverage": 0.1095890410958904,
+              "team_b_coverage": 0.1780821917808219,
+              "utilization": 0.2465753424657534
+            },
+            {
+              "finding_index": 6,
+              "synthesis_coverage": 0.1509433962264151,
+              "team_a_coverage": 0.08490566037735849,
+              "team_b_coverage": 0.05660377358490566,
+              "utilization": 0.1509433962264151
+            },
+            {
+              "finding_index": 7,
+              "synthesis_coverage": 0.21518987341772153,
+              "team_a_coverage": 0.12658227848101267,
+              "team_b_coverage": 0.05063291139240506,
+              "utilization": 0.21518987341772153
+            },
+            {
+              "finding_index": 8,
+              "synthesis_coverage": 0.25396825396825395,
+              "team_a_coverage": 0.1746031746031746,
+              "team_b_coverage": 0.047619047619047616,
+              "utilization": 0.25396825396825395
+            },
+            {
+              "finding_index": 9,
+              "synthesis_coverage": 0.4098360655737705,
+              "team_a_coverage": 0.13114754098360656,
+              "team_b_coverage": 0.04918032786885246,
+              "utilization": 0.4098360655737705
+            }
+          ],
+          "score": 0.2290656413443515
+        },
+        "summary_policy_compliance": {
+          "matched_pattern_ids": [],
+          "score": 1
+        },
+        "synthesis_representation": {
+          "balance": 0.9840291398150742,
+          "mean_coverage": 0.550154104791258,
+          "score": 0.5413676705034739,
+          "team_a_coverage": 0.5421686746987951,
+          "team_b_coverage": 0.5581395348837209
+        },
+        "team_novelty": {
+          "jaccard_similarity": 0.0,
+          "score": 1.0,
+          "shared_shingle_count": 0,
+          "team_a_shingle_count": 90,
+          "team_b_shingle_count": 43,
+          "union_shingle_count": 133
+        },
+        "word_counts": {
+          "research_finding_words": [
+            200,
+            227,
+            193,
+            178,
+            141,
+            187,
+            187,
+            114,
+            155
+          ],
+          "research_total_words": 1582,
+          "synthesis_words": 245,
+          "team_a_argument_words": 126,
+          "team_b_argument_words": 64,
+          "total_output_words": 2017
+        }
+      },
+      "model_call_breakdown": {
+        "neutral_synthesis": 1,
+        "replay_decomposition": 0,
+        "replay_research": 0,
+        "team_a_argument": 1,
+        "team_b_argument": 1,
+        "total_model_calls": 3
+      },
+      "termination_reason": "max_rounds",
+      "usage_entries": [
+        {
+          "duration_seconds": 20.892746832978446,
+          "input_tokens": 5188,
+          "model": "qwen3:8b",
+          "output_tokens": 148,
+          "round_number": 1,
+          "stage": "team_a_argument",
+          "team": "team_a",
+          "total_tokens": 5336,
+          "unavailable_reason": null,
+          "usage_source": "usage_metadata",
+          "usage_status": "available",
+          "variant": "single_round_one_shot"
+        },
+        {
+          "duration_seconds": 16.040547624987084,
+          "input_tokens": 5336,
+          "model": "qwen3:8b",
+          "output_tokens": 76,
+          "round_number": 1,
+          "stage": "team_b_argument",
+          "team": "team_b",
+          "total_tokens": 5412,
+          "unavailable_reason": null,
+          "usage_source": "usage_metadata",
+          "usage_status": "available",
+          "variant": "single_round_one_shot"
+        },
+        {
+          "duration_seconds": 21.656592792016454,
+          "input_tokens": 5417,
+          "model": "qwen3:8b",
+          "output_tokens": 289,
+          "round_number": 1,
+          "stage": "neutral_synthesis",
+          "team": "system",
+          "total_tokens": 5706,
+          "unavailable_reason": null,
+          "usage_source": "usage_metadata",
+          "usage_status": "available",
+          "variant": "single_round_one_shot"
+        }
+      ],
+      "usage_totals": {
+        "all_usage_available": true,
+        "available_calls": 3,
+        "input_tokens": 15941,
+        "model_calls": 3,
+        "output_tokens": 513,
+        "total_tokens": 16454,
+        "unavailable_calls": 0
+      },
+      "variant_id": "single_round_one_shot"
+    },
+    {
+      "architecture": "one-shot-two-round-replay",
+      "completed_rounds": 2,
+      "cost_estimate": {
+        "estimated_cost": "0",
+        "input_cost_per_million": "0",
+        "output_cost_per_million": "0",
+        "pricing_basis": "local_zero_default",
+        "status": "available",
+        "unavailable_reason": null
+      },
+      "efficiency": {
+        "all_generated_words": 577,
+        "completed_rounds": 2,
+        "input_tokens": 26392,
+        "latency_seconds": 32.37672441598261,
+        "model_calls": 5,
+        "output_tokens": 670,
+        "tokens_per_call": 5412.4,
+        "tokens_per_visible_output_word": 69.92764857881137,
+        "total_tokens": 27062,
+        "visible_output_words": 387
+      },
+      "final_visible_outputs": {
+        "neutral_synthesis": "The debate over whether governments should provide universal basic income (UBI) to all adult citizens centers on its potential economic and social impacts. Proponents argue that UBI can enhance financial stability, improve community health, and increase school attendance without leading to negative behaviors such as higher unemployment claims or alcohol abuse. They also highlight that UBI may support greater flexibility for individuals, such as enabling students to pursue degrees in fields of personal interest rather than solely those with immediate economic returns. Additionally, some research suggests that UBI could reduce inequality and promote social equity, with potential fiscal benefits from streamlining existing welfare systems and reducing administrative costs.\n\nOpponents, however, raise concerns about the potential negative effects on labor market participation. Some studies indicate that UBI may lead to a reduction in work hours or even employment rates, particularly among certain demographic groups. For example, one study found that recipients of UBI worked fewer hours per week and experienced longer unemployment spells compared to a control group. Critics argue that such outcomes could reduce tax revenue and weaken economic productivity, while also challenging the traditional role of government in supporting citizens through welfare systems.\n\nThe central tradeoff in the debate lies between the potential for UBI to improve financial security and social well-being versus the risk of reduced labor market participation and its implications for economic growth. The uncertainty revolves around how different populations may respond to UBI, the long-term effects on employment and productivity, and the feasibility of funding such a program without significant fiscal strain.",
+        "team_a_argument": "The opponent's argument emphasizes reduced labor market participation as a key concern, yet the research findings show that UBI can lead to improved financial stability, increased school attendance, and greater community health without corresponding negative traits like increased unemployment claims or alcohol abuse. These outcomes suggest that UBI can enhance overall well-being and economic resilience, countering the claim that it undermines productivity.",
+        "team_b_argument": "The opponent's argument highlights reduced labor market participation as a concern, but the research findings indicate that UBI can improve financial stability and community health without increasing negative behaviors. However, the study showing a 2.0 percentage point decrease in labor market participation among UBI recipients directly challenges this claim, demonstrating that UBI may discourage work, thereby undermining economic productivity and tax revenue."
+      },
+      "generated_stage_word_counts": [
+        {
+          "round_number": 1,
+          "stage": "team_a_argument",
+          "team": "team_a",
+          "word_count": 126
+        },
+        {
+          "round_number": 1,
+          "stage": "team_b_argument",
+          "team": "team_b",
+          "word_count": 64
+        },
+        {
+          "round_number": 2,
+          "stage": "team_a_argument",
+          "team": "team_a",
+          "word_count": 64
+        },
+        {
+          "round_number": 2,
+          "stage": "team_b_argument",
+          "team": "team_b",
+          "word_count": 64
+        },
+        {
+          "round_number": 2,
+          "stage": "neutral_synthesis",
+          "team": "system",
+          "word_count": 259
+        }
+      ],
+      "metric_token_efficiency": {
+        "research_utilization_per_1k_tokens": 0.009206190674370637,
+        "summary_policy_compliance": 1,
+        "synthesis_representation_per_1k_tokens": 0.02052356302837377,
+        "team_novelty_per_1k_tokens": 0.03567797063703017
+      },
+      "metrics": {
+        "metric_version": "1.0",
+        "research_utilization": {
+          "findings": [
+            {
+              "finding_index": 1,
+              "synthesis_coverage": 0.125,
+              "team_a_coverage": 0.041666666666666664,
+              "team_b_coverage": 0.08333333333333333,
+              "utilization": 0.125
+            },
+            {
+              "finding_index": 2,
+              "synthesis_coverage": 0.28346456692913385,
+              "team_a_coverage": 0.14173228346456693,
+              "team_b_coverage": 0.07874015748031496,
+              "utilization": 0.28346456692913385
+            },
+            {
+              "finding_index": 3,
+              "synthesis_coverage": 0.17592592592592593,
+              "team_a_coverage": 0.027777777777777776,
+              "team_b_coverage": 0.027777777777777776,
+              "utilization": 0.17592592592592593
+            },
+            {
+              "finding_index": 4,
+              "synthesis_coverage": 0.3723404255319149,
+              "team_a_coverage": 0.09574468085106383,
+              "team_b_coverage": 0.11702127659574468,
+              "utilization": 0.3723404255319149
+            },
+            {
+              "finding_index": 5,
+              "synthesis_coverage": 0.3698630136986301,
+              "team_a_coverage": 0.1095890410958904,
+              "team_b_coverage": 0.1780821917808219,
+              "utilization": 0.3698630136986301
+            },
+            {
+              "finding_index": 6,
+              "synthesis_coverage": 0.2169811320754717,
+              "team_a_coverage": 0.04716981132075472,
+              "team_b_coverage": 0.04716981132075472,
+              "utilization": 0.2169811320754717
+            },
+            {
+              "finding_index": 7,
+              "synthesis_coverage": 0.21518987341772153,
+              "team_a_coverage": 0.012658227848101266,
+              "team_b_coverage": 0.02531645569620253,
+              "utilization": 0.21518987341772153
+            },
+            {
+              "finding_index": 8,
+              "synthesis_coverage": 0.25396825396825395,
+              "team_a_coverage": 0.031746031746031744,
+              "team_b_coverage": 0.07936507936507936,
+              "utilization": 0.25396825396825395
+            },
+            {
+              "finding_index": 9,
+              "synthesis_coverage": 0.22950819672131148,
+              "team_a_coverage": 0.01639344262295082,
+              "team_b_coverage": 0.04918032786885246,
+              "utilization": 0.22950819672131148
+            }
+          ],
+          "score": 0.24913793202981818
+        },
+        "summary_policy_compliance": {
+          "matched_pattern_ids": [],
+          "score": 1
+        },
+        "synthesis_representation": {
+          "balance": 0.9974160206718347,
+          "mean_coverage": 0.5568475452196382,
+          "score": 0.555408662673851,
+          "team_a_coverage": 0.5555555555555556,
+          "team_b_coverage": 0.5581395348837209
+        },
+        "team_novelty": {
+          "jaccard_similarity": 0.034482758620689655,
+          "score": 0.9655172413793104,
+          "shared_shingle_count": 3,
+          "team_a_shingle_count": 45,
+          "team_b_shingle_count": 45,
+          "union_shingle_count": 87
+        },
+        "word_counts": {
+          "research_finding_words": [
+            200,
+            227,
+            193,
+            178,
+            141,
+            187,
+            187,
+            114,
+            155
+          ],
+          "research_total_words": 1582,
+          "synthesis_words": 259,
+          "team_a_argument_words": 64,
+          "team_b_argument_words": 64,
+          "total_output_words": 1969
+        }
+      },
+      "model_call_breakdown": {
+        "neutral_synthesis": 1,
+        "replay_decomposition": 0,
+        "replay_research": 0,
+        "team_a_argument": 2,
+        "team_b_argument": 2,
+        "total_model_calls": 5
+      },
+      "termination_reason": "max_rounds",
+      "usage_entries": [
+        {
+          "duration_seconds": 4.044590750010684,
+          "input_tokens": 5188,
+          "model": "qwen3:8b",
+          "output_tokens": 148,
+          "round_number": 1,
+          "stage": "team_a_argument",
+          "team": "team_a",
+          "total_tokens": 5336,
+          "unavailable_reason": null,
+          "usage_source": "usage_metadata",
+          "usage_status": "available",
+          "variant": "two_round_one_shot"
+        },
+        {
+          "duration_seconds": 2.120858957991004,
+          "input_tokens": 5336,
+          "model": "qwen3:8b",
+          "output_tokens": 76,
+          "round_number": 1,
+          "stage": "team_b_argument",
+          "team": "team_b",
+          "total_tokens": 5412,
+          "unavailable_reason": null,
+          "usage_source": "usage_metadata",
+          "usage_status": "available",
+          "variant": "two_round_one_shot"
+        },
+        {
+          "duration_seconds": 15.133412166964263,
+          "input_tokens": 5263,
+          "model": "qwen3:8b",
+          "output_tokens": 74,
+          "round_number": 2,
+          "stage": "team_a_argument",
+          "team": "team_a",
+          "total_tokens": 5337,
+          "unavailable_reason": null,
+          "usage_source": "usage_metadata",
+          "usage_status": "available",
+          "variant": "two_round_one_shot"
+        },
+        {
+          "duration_seconds": 2.5355845839949325,
+          "input_tokens": 5262,
+          "model": "qwen3:8b",
+          "output_tokens": 76,
+          "round_number": 2,
+          "stage": "team_b_argument",
+          "team": "team_b",
+          "total_tokens": 5338,
+          "unavailable_reason": null,
+          "usage_source": "usage_metadata",
+          "usage_status": "available",
+          "variant": "two_round_one_shot"
+        },
+        {
+          "duration_seconds": 8.53071295801783,
+          "input_tokens": 5343,
+          "model": "qwen3:8b",
+          "output_tokens": 296,
+          "round_number": 2,
+          "stage": "neutral_synthesis",
+          "team": "system",
+          "total_tokens": 5639,
+          "unavailable_reason": null,
+          "usage_source": "usage_metadata",
+          "usage_status": "available",
+          "variant": "two_round_one_shot"
+        }
+      ],
+      "usage_totals": {
+        "all_usage_available": true,
+        "available_calls": 5,
+        "input_tokens": 26392,
+        "model_calls": 5,
+        "output_tokens": 670,
+        "total_tokens": 27062,
+        "unavailable_calls": 0
+      },
+      "variant_id": "two_round_one_shot"
+    },
+    {
+      "architecture": "hierarchical-single-round-replay",
+      "completed_rounds": 1,
+      "cost_estimate": {
+        "estimated_cost": "0",
+        "input_cost_per_million": "0",
+        "output_cost_per_million": "0",
+        "pricing_basis": "local_zero_default",
+        "status": "available",
+        "unavailable_reason": null
+      },
+      "efficiency": {
+        "all_generated_words": 1371,
+        "completed_rounds": 1,
+        "input_tokens": 40459,
+        "latency_seconds": 151.36596191703575,
+        "model_calls": 7,
+        "output_tokens": 2229,
+        "tokens_per_call": 6098.285714285715,
+        "tokens_per_visible_output_word": 103.86374695863746,
+        "total_tokens": 42688,
+        "visible_output_words": 411
+      },
+      "final_visible_outputs": {
+        "neutral_synthesis": "The debate over whether governments should provide universal basic income (UBI) to all adult citizens centers on its potential benefits and risks. Proponents highlight that UBI has shown positive outcomes in pilot programs, such as increased school attendance, employment, and financial stability, with examples from Finland and Canada. Research also suggests that UBI reforms can generate welfare gains, reduce inequality, and have macroeconomic benefits, including lower consumption and disposable income inequality. Additionally, UBI could streamline government spending by consolidating existing welfare programs, potentially enabling tax reductions and improving fiscal sustainability. However, some studies indicate that UBI may lead to reduced labor market participation, with one study reporting a 2.0 percentage point decrease in participation, fewer weekly working hours, and longer unemployment spells. Critics also argue that UBI could increase national debt or raise taxes, and that it may undermine existing social safety nets by transferring resources away from those in greatest need. The central tradeoff lies in balancing the potential for UBI to enhance social equity and economic empowerment against the risks of reduced labor participation and fiscal strain. The evidence remains mixed, with no clear consensus on the overall impact of UBI.",
+        "team_a_argument": "Universal Basic Income (UBI) has demonstrated tangible benefits through pilot programs, including increased school attendance, employment, and financial stability, as evidenced by successful implementations in countries like Finland and Canada. Additionally, UBI reforms can generate welfare gains, reduce inequality, and have positive macroeconomic effects, as shown by studies indicating that UBI can lower consumption and disposable income inequality while allowing for different taxation sources. Furthermore, UBI can reduce government costs by consolidating existing welfare programs, enabling tax reductions and improving fiscal sustainability. While some studies suggest potential challenges, such as reduced labor market participation, these findings are not universally consistent and should be balanced with the broader evidence supporting UBI's capacity to enhance social equity and economic empowerment.",
+        "team_b_argument": "Universal Basic Income (UBI) may lead to reduced labor market participation, as evidenced by a study showing a 2.0 percentage point decrease in participation, with participants working fewer hours and experiencing longer unemployment spells. Additionally, UBI could increase national debt or sharply raise taxes, as argued by the George W. Bush Presidential Center, which warns that UBI would transfer money away from those who need it most and undermine the current social safety net. These findings challenge the notion that UBI is a universally beneficial policy, highlighting significant fiscal and economic risks that must be carefully considered."
+      },
+      "generated_stage_word_counts": [
+        {
+          "round_number": 1,
+          "stage": "evidence_analysis",
+          "team": "team_a",
+          "word_count": 174
+        },
+        {
+          "round_number": 1,
+          "stage": "argument_draft",
+          "team": "team_a",
+          "word_count": 119
+        },
+        {
+          "round_number": 1,
+          "stage": "review_revision",
+          "team": "team_a",
+          "word_count": 291
+        },
+        {
+          "round_number": 1,
+          "stage": "evidence_analysis",
+          "team": "team_b",
+          "word_count": 230
+        },
+        {
+          "round_number": 1,
+          "stage": "argument_draft",
+          "team": "team_b",
+          "word_count": 96
+        },
+        {
+          "round_number": 1,
+          "stage": "review_revision",
+          "team": "team_b",
+          "word_count": 267
+        },
+        {
+          "round_number": 1,
+          "stage": "neutral_synthesis",
+          "team": "system",
+          "word_count": 194
+        }
+      ],
+      "metric_token_efficiency": {
+        "research_utilization_per_1k_tokens": 0.005164143332861989,
+        "summary_policy_compliance": 1,
+        "synthesis_representation_per_1k_tokens": 0.012169981426297867,
+        "team_novelty_per_1k_tokens": 0.02281334822784686
+      },
+      "metrics": {
+        "metric_version": "1.0",
+        "research_utilization": {
+          "findings": [
+            {
+              "finding_index": 1,
+              "synthesis_coverage": 0.125,
+              "team_a_coverage": 0.08333333333333333,
+              "team_b_coverage": 0.1111111111111111,
+              "utilization": 0.125
+            },
+            {
+              "finding_index": 2,
+              "synthesis_coverage": 0.2440944881889764,
+              "team_a_coverage": 0.1732283464566929,
+              "team_b_coverage": 0.08661417322834646,
+              "utilization": 0.2440944881889764
+            },
+            {
+              "finding_index": 3,
+              "synthesis_coverage": 0.1388888888888889,
+              "team_a_coverage": 0.17592592592592593,
+              "team_b_coverage": 0.07407407407407407,
+              "utilization": 0.17592592592592593
+            },
+            {
+              "finding_index": 4,
+              "synthesis_coverage": 0.2553191489361702,
+              "team_a_coverage": 0.26595744680851063,
+              "team_b_coverage": 0.14893617021276595,
+              "utilization": 0.26595744680851063
+            },
+            {
+              "finding_index": 5,
+              "synthesis_coverage": 0.2602739726027397,
+              "team_a_coverage": 0.1232876712328767,
+              "team_b_coverage": 0.2602739726027397,
+              "utilization": 0.2602739726027397
+            },
+            {
+              "finding_index": 6,
+              "synthesis_coverage": 0.18867924528301888,
+              "team_a_coverage": 0.14150943396226415,
+              "team_b_coverage": 0.1320754716981132,
+              "utilization": 0.18867924528301888
+            },
+            {
+              "finding_index": 7,
+              "synthesis_coverage": 0.189873417721519,
+              "team_a_coverage": 0.12658227848101267,
+              "team_b_coverage": 0.10126582278481013,
+              "utilization": 0.189873417721519
+            },
+            {
+              "finding_index": 8,
+              "synthesis_coverage": 0.20634920634920634,
+              "team_a_coverage": 0.1111111111111111,
+              "team_b_coverage": 0.12698412698412698,
+              "utilization": 0.20634920634920634
+            },
+            {
+              "finding_index": 9,
+              "synthesis_coverage": 0.29508196721311475,
+              "team_a_coverage": 0.11475409836065574,
+              "team_b_coverage": 0.32786885245901637,
+              "utilization": 0.32786885245901637
+            }
+          ],
+          "score": 0.2204469505932126
+        },
+        "summary_policy_compliance": {
+          "matched_pattern_ids": [],
+          "score": 1
+        },
+        "synthesis_representation": {
+          "balance": 0.8803030303030303,
+          "mean_coverage": 0.5901515151515151,
+          "score": 0.5195121671258034,
+          "team_a_coverage": 0.65,
+          "team_b_coverage": 0.5303030303030303
+        },
+        "team_novelty": {
+          "jaccard_similarity": 0.026143790849673203,
+          "score": 0.9738562091503268,
+          "shared_shingle_count": 4,
+          "team_a_shingle_count": 89,
+          "team_b_shingle_count": 68,
+          "union_shingle_count": 153
+        },
+        "word_counts": {
+          "research_finding_words": [
+            200,
+            227,
+            193,
+            178,
+            141,
+            187,
+            187,
+            114,
+            155
+          ],
+          "research_total_words": 1582,
+          "synthesis_words": 194,
+          "team_a_argument_words": 119,
+          "team_b_argument_words": 98,
+          "total_output_words": 1993
+        }
+      },
+      "model_call_breakdown": {
+        "neutral_synthesis": 1,
+        "replay_decomposition": 0,
+        "replay_research": 0,
+        "team_a_analysis": 1,
+        "team_a_draft": 1,
+        "team_a_review": 1,
+        "team_b_analysis": 1,
+        "team_b_draft": 1,
+        "team_b_review": 1,
+        "total_model_calls": 7
+      },
+      "termination_reason": null,
+      "usage_entries": [
+        {
+          "duration_seconds": 25.7951591250021,
+          "input_tokens": 5481,
+          "model": "qwen3:8b",
+          "output_tokens": 441,
+          "round_number": 1,
+          "stage": "evidence_analysis",
+          "team": "team_a",
+          "total_tokens": 5922,
+          "unavailable_reason": null,
+          "usage_source": "usage_metadata",
+          "usage_status": "available",
+          "variant": "hierarchical_single_round"
+        },
+        {
+          "duration_seconds": 18.5616069160169,
+          "input_tokens": 5697,
+          "model": "qwen3:8b",
+          "output_tokens": 145,
+          "round_number": 1,
+          "stage": "argument_draft",
+          "team": "team_a",
+          "total_tokens": 5842,
+          "unavailable_reason": null,
+          "usage_source": "usage_metadata",
+          "usage_status": "available",
+          "variant": "hierarchical_single_round"
+        },
+        {
+          "duration_seconds": 27.306432332959957,
+          "input_tokens": 6057,
+          "model": "qwen3:8b",
+          "output_tokens": 412,
+          "round_number": 1,
+          "stage": "review_revision",
+          "team": "team_a",
+          "total_tokens": 6469,
+          "unavailable_reason": null,
+          "usage_source": "usage_metadata",
+          "usage_status": "available",
+          "variant": "hierarchical_single_round"
+        },
+        {
+          "duration_seconds": 27.920232209027745,
+          "input_tokens": 5625,
+          "model": "qwen3:8b",
+          "output_tokens": 508,
+          "round_number": 1,
+          "stage": "evidence_analysis",
+          "team": "team_b",
+          "total_tokens": 6133,
+          "unavailable_reason": null,
+          "usage_source": "usage_metadata",
+          "usage_status": "available",
+          "variant": "hierarchical_single_round"
+        },
+        {
+          "duration_seconds": 18.17364379100036,
+          "input_tokens": 5908,
+          "model": "qwen3:8b",
+          "output_tokens": 113,
+          "round_number": 1,
+          "stage": "argument_draft",
+          "team": "team_b",
+          "total_tokens": 6021,
+          "unavailable_reason": null,
+          "usage_source": "usage_metadata",
+          "usage_status": "available",
+          "variant": "hierarchical_single_round"
+        },
+        {
+          "duration_seconds": 26.28935033403104,
+          "input_tokens": 6236,
+          "model": "qwen3:8b",
+          "output_tokens": 376,
+          "round_number": 1,
+          "stage": "review_revision",
+          "team": "team_b",
+          "total_tokens": 6612,
+          "unavailable_reason": null,
+          "usage_source": "usage_metadata",
+          "usage_status": "available",
+          "variant": "hierarchical_single_round"
+        },
+        {
+          "duration_seconds": 7.303478709014598,
+          "input_tokens": 5455,
+          "model": "qwen3:8b",
+          "output_tokens": 234,
+          "round_number": null,
+          "stage": "neutral_synthesis",
+          "team": "system",
+          "total_tokens": 5689,
+          "unavailable_reason": null,
+          "usage_source": "usage_metadata",
+          "usage_status": "available",
+          "variant": "hierarchical_single_round"
+        }
+      ],
+      "usage_totals": {
+        "all_usage_available": true,
+        "available_calls": 7,
+        "input_tokens": 40459,
+        "model_calls": 7,
+        "output_tokens": 2229,
+        "total_tokens": 42688,
+        "unavailable_calls": 0
+      },
+      "variant_id": "hierarchical_single_round"
+    }
+  ]
+}

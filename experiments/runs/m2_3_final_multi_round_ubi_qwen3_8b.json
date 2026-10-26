@@ -1,0 +1,618 @@
+{
+  "debate_rounds": [
+    {
+      "round_number": 1,
+      "team_a_argument": "Universal basic income (UBI) offers a transformative approach to addressing economic inequality and enhancing financial stability for all citizens. Research findings demonstrate that UBI pilot programs have led to increased school attendance, improved community health, and greater financial stability without corresponding increases in negative behaviors such as unemployment claims or alcohol abuse. Norway, a welfare state with a system closely resembling UBI, ensures access to education, healthcare, and income for all citizens while maintaining conditions such as work participation and tax compliance. Additionally, studies suggest that UBI can enable individuals to pursue education and career paths aligned with their interests, fostering long-term economic empowerment. While some studies indicate modest reductions in labor market participation, these effects are often context-dependent and can be mitigated through thoughtful policy design. Furthermore, UBI has the potential to streamline government spending by consolidating existing welfare programs, reducing administrative costs, and allowing for the elimination of harmful taxes that burden commerce. These findings collectively support the proposition that governments should provide universal basic income to all adult citizens as a viable and beneficial policy initiative.",
+      "team_a_duration_seconds": 18.29813929204829,
+      "team_a_novelty": null,
+      "team_a_opponent_argument": null,
+      "team_b_argument": "Team B's response: The opponent's argument highlights potential benefits of universal basic income, but the strongest point—claims of increased school attendance, improved health, and financial stability—must be countered. Research findings, including a 2026 meta-analysis, reveal that UBI programs often result in reduced labor market participation, with some studies showing a 3.2% net employment effect decrease in larger programs. This undermines the claim that UBI enhances financial stability without negative consequences, as it suggests UBI may reduce workforce participation and tax revenue, posing significant economic risks.",
+      "team_b_duration_seconds": 16.570643624989316,
+      "team_b_novelty": null,
+      "team_b_opponent_argument": "Universal basic income (UBI) offers a transformative approach to addressing economic inequality and enhancing financial stability for all citizens. Research findings demonstrate that UBI pilot programs have led to increased school attendance, improved community health, and greater financial stability without corresponding increases in negative behaviors such as unemployment claims or alcohol abuse. Norway, a welfare state with a system closely resembling UBI, ensures access to education, healthcare, and income for all citizens while maintaining conditions such as work participation and tax compliance. Additionally, studies suggest that UBI can enable individuals to pursue education and career paths aligned with their interests, fostering long-term economic empowerment. While some studies indicate modest reductions in labor market participation, these effects are often context-dependent and can be mitigated through thoughtful policy design. Furthermore, UBI has the potential to streamline government spending by consolidating existing welfare programs, reducing administrative costs, and allowing for the elimination of harmful taxes that burden commerce. These findings collectively support the proposition that governments should provide universal basic income to all adult citizens as a viable and beneficial policy initiative.",
+      "termination_decision": {
+        "reason": "continue",
+        "stop": false,
+        "team_a_novelty": null,
+        "team_b_novelty": null
+      },
+      "termination_duration_seconds": 6.212497828528285e-05
+    },
+    {
+      "round_number": 2,
+      "team_a_argument": "Team B's response: While proponents argue that universal basic income (UBI) improves school attendance, health, and financial stability, the strongest counterpoint is the evidence of reduced labor market participation. A 2026 meta-analysis found that UBI programs, particularly those with larger participant numbers, resulted in a -3.2% net employment effect, indicating a significant reduction in workforce participation. This undermines the claim that UBI enhances financial stability without negative consequences, as it suggests UBI may reduce tax revenue and economic productivity, posing substantial economic risks.",
+      "team_a_duration_seconds": 15.93984674999956,
+      "team_a_novelty": 0.9789473684210527,
+      "team_a_opponent_argument": "Team B's response: The opponent's argument highlights potential benefits of universal basic income, but the strongest point—claims of increased school attendance, improved health, and financial stability—must be countered. Research findings, including a 2026 meta-analysis, reveal that UBI programs often result in reduced labor market participation, with some studies showing a 3.2% net employment effect decrease in larger programs. This undermines the claim that UBI enhances financial stability without negative consequences, as it suggests UBI may reduce workforce participation and tax revenue, posing significant economic risks.",
+      "team_b_argument": "Team B's response: The strongest counterpoint to the claim that universal basic income (UBI) improves financial stability is the evidence of reduced labor market participation. A 2026 meta-analysis found that UBI programs, particularly those with larger participant numbers, resulted in a -3.2% net employment effect, indicating a significant reduction in workforce participation. This undermines the claim that UBI enhances financial stability without negative consequences, as it suggests UBI may reduce tax revenue and economic productivity, posing substantial economic risks.",
+      "team_b_duration_seconds": 3.552823292033281,
+      "team_b_novelty": 0.8301886792452831,
+      "team_b_opponent_argument": "Team B's response: While proponents argue that universal basic income (UBI) improves school attendance, health, and financial stability, the strongest counterpoint is the evidence of reduced labor market participation. A 2026 meta-analysis found that UBI programs, particularly those with larger participant numbers, resulted in a -3.2% net employment effect, indicating a significant reduction in workforce participation. This undermines the claim that UBI enhances financial stability without negative consequences, as it suggests UBI may reduce tax revenue and economic productivity, posing substantial economic risks.",
+      "termination_decision": {
+        "reason": "max_rounds",
+        "stop": true,
+        "team_a_novelty": 0.9789473684210527,
+        "team_b_novelty": 0.8301886792452831
+      },
+      "termination_duration_seconds": 0.0002982920268550515
+    }
+  ],
+  "decomposition": {
+    "question_complexity": "complex",
+    "subquestions": [
+      "What are the economic impacts of implementing a universal basic income program in different countries?",
+      "How does universal basic income affect labor market participation and employment rates?",
+      "What are the fiscal implications of funding a universal basic income for governments?"
+    ]
+  },
+  "graph_evidence": {
+    "consolidated_evidence": [
+      {
+        "claim": "As with other policies and models, universal basic income has its advantages and disadvantages. Supporters point out that many UBI pilot programs have resulted in increased school attendance and employment, greater community health, and improved financial stability with no corresponding increase in negative traits, such as unemployment claims or alcohol abuse. Supporters also argue that UBI enables college students to receive a degree in what interests them and not just a degree that will make [...] ### Norway\n\nThe country whose system most closely resembles universal basic income is Norway. Norway is a welfare state, ensuring that all Norwegian citizens residing in the country have access to education, universal health care, and income in the form of social security or benefits. However, recipients of the monetary benefit must still meet specific conditions. For instance, they must seek work, abide by the law, participate in elections, and pay taxes.\n\n### Finland [...] In the past four decades, many countries including Finland, Canada, the United States, and Brazil (see map above and table at page bottom for full list) have discussed and debated UBI models. Many governments and private organizations have gone on to implement pilot programs to determine the practical cost of universal basic income, as well as its effectiveness in fighting poverty and its effects. The Basic Income Earth Network (BEIN) is one of many groups devoted to the promotion and",
+        "finding_index": 1,
+        "source_title": "Countries with Universal Basic Income 2026",
+        "source_type": "web",
+        "source_url": "https://worldpopulationreview.com/country-rankings/countries-with-universal-basic-income",
+        "subquestion": "What are the economic impacts of implementing a universal basic income program in different countries?",
+        "subquestion_index": 1,
+        "supporting_excerpt": "As with other policies and models, universal basic income has its advantages and disadvantages. Supporters point out that many UBI pilot programs have resulted in increased school attendance and employment, greater community health, and improved financial stability with no corresponding increase in negative traits, such as unemployment claims or alcohol abuse. Supporters also argue that UBI enables college students to receive a degree in what interests them and not just a degree that will make [...] ### Norway\n\nThe country whose system most closely resembles universal basic income is Norway. Norway is a welfare state, ensuring that all Norwegian citizens residing in the country have access to education, universal health care, and income in the form of social security or benefits. However, recipients of the monetary benefit must still meet specific conditions. For instance, they must seek work, abide by the law, participate in elections, and pay taxes.\n\n### Finland [...] In the past four decades, many countries including Finland, Canada, the United States, and Brazil (see map above and table at page bottom for full list) have discussed and debated UBI models. Many governments and private organizations have gone on to implement pilot programs to determine the practical cost of universal basic income, as well as its effectiveness in fighting poverty and its effects. The Basic Income Earth Network (BEIN) is one of many groups devoted to the promotion and"
+      },
+      {
+        "claim": "in 2026 compared to Baseline, equivalent to an additional 60,018 men with CMD (95% UI −186,264, 291,814); however, UIs were very wide. The only population subgroups who potentially benefited from the implementation of Full UBI by 2026 were women (−0.15% [95% UI −1.53, 1.24]) and lone parents (−0.23% [95% UI −6.82, 5.91]), and, again, UIs were wide. [...] mental disorder (CMD) for modelled Universal Basic Income (UBI) policies from 2022–2026. Figure J: Structural Sensitivity Analysis 2, using economic inactivity effects—Estimated prevalence of common mental disorder (CMD) for modelled Universal Basic Income (UBI) policies from 2022–2026. Table J: Structural Sensitivity Analyses—Estimated prevalence of common mental disorders and mental health inequalities in baseline scenario and three simulated Universal Basic Income (UBI) scenarios from [...] mental disorder (CMD) for modelled Universal Basic Income (UBI) policies from 2022–2026. Figure J: Structural Sensitivity Analysis 2, using economic inactivity effects—Estimated prevalence of common mental disorder (CMD) for modelled Universal Basic Income (UBI) policies from 2022–2026. Table J: Structural Sensitivity Analyses—Estimated prevalence of common mental disorders and mental health inequalities in baseline scenario and three simulated Universal Basic Income (UBI) scenarios from",
+        "finding_index": 2,
+        "source_title": "Short-term impacts of Universal Basic Income on population mental health inequalities in the UK: A microsimulation modelling study",
+        "source_type": "web",
+        "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10947674",
+        "subquestion": "What are the economic impacts of implementing a universal basic income program in different countries?",
+        "subquestion_index": 1,
+        "supporting_excerpt": "in 2026 compared to Baseline, equivalent to an additional 60,018 men with CMD (95% UI −186,264, 291,814); however, UIs were very wide. The only population subgroups who potentially benefited from the implementation of Full UBI by 2026 were women (−0.15% [95% UI −1.53, 1.24]) and lone parents (−0.23% [95% UI −6.82, 5.91]), and, again, UIs were wide. [...] mental disorder (CMD) for modelled Universal Basic Income (UBI) policies from 2022–2026. Figure J: Structural Sensitivity Analysis 2, using economic inactivity effects—Estimated prevalence of common mental disorder (CMD) for modelled Universal Basic Income (UBI) policies from 2022–2026. Table J: Structural Sensitivity Analyses—Estimated prevalence of common mental disorders and mental health inequalities in baseline scenario and three simulated Universal Basic Income (UBI) scenarios from [...] mental disorder (CMD) for modelled Universal Basic Income (UBI) policies from 2022–2026. Figure J: Structural Sensitivity Analysis 2, using economic inactivity effects—Estimated prevalence of common mental disorder (CMD) for modelled Universal Basic Income (UBI) policies from 2022–2026. Table J: Structural Sensitivity Analyses—Estimated prevalence of common mental disorders and mental health inequalities in baseline scenario and three simulated Universal Basic Income (UBI) scenarios from"
+      },
+      {
+        "claim": "A 2026 meta-analysis conducted by the American Enterprise Institute of 122 UBI programs found that among the thirty randomized pilots with published results, the net employment effect was +0.8%. However, in the four programs with 500 or more participants, the net employment effect was -3.2%. The median study N \"Sampling (statistics)\") was 151 people. Studies that tracked program attrition found an average dropout rate of 37%.\n\n### Philosophy and morality\n\n[edit] [...] As a response to the COVID-19 pandemic and its economic impact, universal basic income and similar proposals such as helicopter money and cash transfers were increasingly discussed across the world. Most countries implemented forms of partial unemployment schemes, which effectively subsidized workers' incomes without a work requirement. Around ninety countries and regions including the United States, Spain, Hong Kong, and Japan introduced temporary direct cash transfer programs to their [...] 96. ↑ \"Free money wouldn't make people lazy – but it could revolutionise work | Anna Dent\". The Guardian. 12 February 2019. Archived from the original on 25 July 2021. Retrieved 27 May 2021.\n97. ↑ \"What 122 Universal Basic Income Experiments Actually Show | The Daily Economy\". 20 March 2026. Retrieved 20 March 2026.",
+        "finding_index": 3,
+        "source_title": "Universal basic income",
+        "source_type": "web",
+        "source_url": "https://en.wikipedia.org/wiki/Universal_basic_income",
+        "subquestion": "What are the economic impacts of implementing a universal basic income program in different countries?",
+        "subquestion_index": 1,
+        "supporting_excerpt": "A 2026 meta-analysis conducted by the American Enterprise Institute of 122 UBI programs found that among the thirty randomized pilots with published results, the net employment effect was +0.8%. However, in the four programs with 500 or more participants, the net employment effect was -3.2%. The median study N \"Sampling (statistics)\") was 151 people. Studies that tracked program attrition found an average dropout rate of 37%.\n\n### Philosophy and morality\n\n[edit] [...] As a response to the COVID-19 pandemic and its economic impact, universal basic income and similar proposals such as helicopter money and cash transfers were increasingly discussed across the world. Most countries implemented forms of partial unemployment schemes, which effectively subsidized workers' incomes without a work requirement. Around ninety countries and regions including the United States, Spain, Hong Kong, and Japan introduced temporary direct cash transfer programs to their [...] 96. ↑ \"Free money wouldn't make people lazy – but it could revolutionise work | Anna Dent\". The Guardian. 12 February 2019. Archived from the original on 25 July 2021. Retrieved 27 May 2021.\n97. ↑ \"What 122 Universal Basic Income Experiments Actually Show | The Daily Economy\". 20 March 2026. Retrieved 20 March 2026."
+      },
+      {
+        "claim": "Findings: The findings reveal that there exists a contextual and methodological gap relating to the impact of Universal Basic Income on labour market participation. Preliminary empirical review revealed the importance of considering both the short-term and long-term effects of Universal Basic Income (UBI) on labor market participation. While some evidence suggested that UBI may have led to modest reductions in employment rates, particularly among certain demographic groups or in specific [...] that support labor market participation. Overall, the conclusion underscored the complexity of the relationship between UBI and labor market participation, emphasizing the need for further research and experimentation to fully understand its potential effects and ensure its successful implementation. [...] were advised to carefully design UBI policies to balance promoting labor market participation and providing financial security, considering the diverse impacts on different demographic groups. The study highlighted the importance of addressing disincentives to work, promoting inclusive growth, and continuously monitoring and evaluating UBI programs to assess their long-term impact. Additionally, the study emphasized leveraging UBI as a tool for social equity and economic empowerment. Through",
+        "finding_index": 1,
+        "source_title": "The Impact of Universal Basic Income on Labor Market Participation\n\t\t\t\t\t\t\t| International Journal of Economic Policy",
+        "source_type": "web",
+        "source_url": "https://carijournals.org/journals/IJECOP/article/view/1761",
+        "subquestion": "How does universal basic income affect labor market participation and employment rates?",
+        "subquestion_index": 2,
+        "supporting_excerpt": "Findings: The findings reveal that there exists a contextual and methodological gap relating to the impact of Universal Basic Income on labour market participation. Preliminary empirical review revealed the importance of considering both the short-term and long-term effects of Universal Basic Income (UBI) on labor market participation. While some evidence suggested that UBI may have led to modest reductions in employment rates, particularly among certain demographic groups or in specific [...] that support labor market participation. Overall, the conclusion underscored the complexity of the relationship between UBI and labor market participation, emphasizing the need for further research and experimentation to fully understand its potential effects and ensure its successful implementation. [...] were advised to carefully design UBI policies to balance promoting labor market participation and providing financial security, considering the diverse impacts on different demographic groups. The study highlighted the importance of addressing disincentives to work, promoting inclusive growth, and continuously monitoring and evaluating UBI programs to assess their long-term impact. Additionally, the study emphasized leveraging UBI as a tool for social equity and economic empowerment. Through"
+      },
+      {
+        "claim": "Labor market participation decreased by 2.0 percentage points.\n   Participants worked 1.3 to 1.4 fewer hours per week.\n   The partners of participants also reduced their working hours by a similar amount.\n\nAdditionally, individual income, excluding the transfers, fell by about $1,500 per year relative to the control group. The length of unemployment spells increased by an average of 1.1 months among those in the treatment group compared to the control group. [...] The experiment involved 1,000 low-income individuals receiving $1,000 per month unconditionally for three years. A control group of 2,000 participants received just $50 per month. The average household income of participants in 2019 was around $29,900, making the transfers a significant 40% boost in household income.\n\nThe study’s findings indicate a reduction in labor market participation among UBI recipients. Specifically: [...] Despite detailed inquiries into job quality and amenities, the study found no significant improvements in employment quality or human capital investments. Although younger participants showed a tendency to pursue more formal education, the overall results suggest a moderate reduction in labor supply without other offsetting productive activities.",
+        "finding_index": 2,
+        "source_title": "Study: Recipients of universal basic income work fewer hours, are less productive",
+        "source_type": "web",
+        "source_url": "https://www.carolinajournal.com/study-recipients-of-universal-basic-income-work-fewer-hours-are-less-productive",
+        "subquestion": "How does universal basic income affect labor market participation and employment rates?",
+        "subquestion_index": 2,
+        "supporting_excerpt": "Labor market participation decreased by 2.0 percentage points.\n   Participants worked 1.3 to 1.4 fewer hours per week.\n   The partners of participants also reduced their working hours by a similar amount.\n\nAdditionally, individual income, excluding the transfers, fell by about $1,500 per year relative to the control group. The length of unemployment spells increased by an average of 1.1 months among those in the treatment group compared to the control group. [...] The experiment involved 1,000 low-income individuals receiving $1,000 per month unconditionally for three years. A control group of 2,000 participants received just $50 per month. The average household income of participants in 2019 was around $29,900, making the transfers a significant 40% boost in household income.\n\nThe study’s findings indicate a reduction in labor market participation among UBI recipients. Specifically: [...] Despite detailed inquiries into job quality and amenities, the study found no significant improvements in employment quality or human capital investments. Although younger participants showed a tendency to pursue more formal education, the overall results suggest a moderate reduction in labor supply without other offsetting productive activities."
+      },
+      {
+        "claim": "A central concern surrounding UBI is its impact on individuals' motivation to work. Critics worry that providing a guaranteed income might disincentivize people from seeking employment or pursuing career advancement. However, numerous UBI trials and experiments have produced contrasting findings. For instance, a study on Alaska's Permanent Fund Dividend, a form of UBI, indicated minimal adverse effects on labor market participation. The supporters also argue that UBI could enable individuals to",
+        "finding_index": 3,
+        "source_title": "Cogent | Blog | Universal Basic Income And The Future Of Work",
+        "source_type": "web",
+        "source_url": "https://cogentinfo.com/resources/universal-basic-income-and-the-future-of-work-3460c",
+        "subquestion": "How does universal basic income affect labor market participation and employment rates?",
+        "subquestion_index": 2,
+        "supporting_excerpt": "A central concern surrounding UBI is its impact on individuals' motivation to work. Critics worry that providing a guaranteed income might disincentivize people from seeking employment or pursuing career advancement. However, numerous UBI trials and experiments have produced contrasting findings. For instance, a study on Alaska's Permanent Fund Dividend, a form of UBI, indicated minimal adverse effects on labor market participation. The supporters also argue that UBI could enable individuals to"
+      },
+      {
+        "claim": "growth, inequality, and welfare depends on the type of fiscal policy adopted by government to fund it, notably the trade-off between increasing the tax base or reducing public spending. First, under normal circumstances, universal basic income funded by completely eliminating oil subsidies appears to be the best policy for reducing inequality while increasing growth and welfare. Second, when the currency union faces a crisis, a universal basic income funded by increases in different taxes is [...] different taxes is more effective in combating stagflation and inequality than a universal basic income funded by total oil subsidy elimination. The welfare analysis confirms that, universal basic income funded by the increase in tax on capital gains and the increase in tax on corporate income is successful in reducing income inequality and consumption inequality and improving households’ living standards, its effects lead to higher welfare gains when the economy faces a crisis rather than the [...] This paper aims to assess tax policy reforms that can sustain universal basic income programs and foster long-term growth and welfare in a currency union that faces fiscal rule constraints and inequality. To address this ongoing government and economics’ debate, we developed a Dynamic Stochastic General Equilibrium Model of universal basic income enriched with three fiscal policy strategies. Results demonstrate that the effectiveness of universal basic income on long-term growth, inequality,",
+        "finding_index": 1,
+        "source_title": "Tax policy reform and universal basic income effectiveness in a currency union: Implications for long-term growth, inequality, and welfare",
+        "source_type": "web",
+        "source_url": "https://www.sciencedirect.com/science/article/pii/S2667319323000186",
+        "subquestion": "What are the fiscal implications of funding a universal basic income for governments?",
+        "subquestion_index": 3,
+        "supporting_excerpt": "growth, inequality, and welfare depends on the type of fiscal policy adopted by government to fund it, notably the trade-off between increasing the tax base or reducing public spending. First, under normal circumstances, universal basic income funded by completely eliminating oil subsidies appears to be the best policy for reducing inequality while increasing growth and welfare. Second, when the currency union faces a crisis, a universal basic income funded by increases in different taxes is [...] different taxes is more effective in combating stagflation and inequality than a universal basic income funded by total oil subsidy elimination. The welfare analysis confirms that, universal basic income funded by the increase in tax on capital gains and the increase in tax on corporate income is successful in reducing income inequality and consumption inequality and improving households’ living standards, its effects lead to higher welfare gains when the economy faces a crisis rather than the [...] This paper aims to assess tax policy reforms that can sustain universal basic income programs and foster long-term growth and welfare in a currency union that faces fiscal rule constraints and inequality. To address this ongoing government and economics’ debate, we developed a Dynamic Stochastic General Equilibrium Model of universal basic income enriched with three fiscal policy strategies. Results demonstrate that the effectiveness of universal basic income on long-term growth, inequality,"
+      },
+      {
+        "claim": "The UBI will remove from government the costs of funding most subsistence benefits - welfare, state pensions, tax credits, and so on, which will allow us to immediately abolish some of the taxes that are a drag on commerce (e.g. VAT and NICs), and it should be possible to reduce or get rid of other unhelpful taxes (e.g. corporation tax, income tax) as government departments learn how to manage their cashflows using temporary loans from businesses and individuals who have spare money and are [...] There are also flows of money from businesses and individuals to government in the form of taxes and government borrowing, and flows from government to individuals and businesses in the form of salaries, welfare payments, interest on government debt, and all the other government spending that goes on. [...] It’s likely that most lending will be done at interest rates of zero or below, which will, over time, get rid of the mountain of positive-interest bearing debt under which we are currently buried. The evils of compound interest will disappear from our lives, as will the costs of servicing government debt.",
+        "finding_index": 2,
+        "source_title": "How to Fund a Universal Basic Income",
+        "source_type": "web",
+        "source_url": "https://citizen-network.org/library/how-to-fund-a-universal-basic-income.html",
+        "subquestion": "What are the fiscal implications of funding a universal basic income for governments?",
+        "subquestion_index": 3,
+        "supporting_excerpt": "The UBI will remove from government the costs of funding most subsistence benefits - welfare, state pensions, tax credits, and so on, which will allow us to immediately abolish some of the taxes that are a drag on commerce (e.g. VAT and NICs), and it should be possible to reduce or get rid of other unhelpful taxes (e.g. corporation tax, income tax) as government departments learn how to manage their cashflows using temporary loans from businesses and individuals who have spare money and are [...] There are also flows of money from businesses and individuals to government in the form of taxes and government borrowing, and flows from government to individuals and businesses in the form of salaries, welfare payments, interest on government debt, and all the other government spending that goes on. [...] It’s likely that most lending will be done at interest rates of zero or below, which will, over time, get rid of the mountain of positive-interest bearing debt under which we are currently buried. The evils of compound interest will disappear from our lives, as will the costs of servicing government debt."
+      },
+      {
+        "claim": "### Work\n\n[edit]\n\nMany critics of basic income argue that people, in general, will work less, which in turn means less tax revenue and less money for the state and local governments. Studies include:",
+        "finding_index": 3,
+        "source_title": "Universal basic income - Wikipedia",
+        "source_type": "web",
+        "source_url": "https://en.wikipedia.org/wiki/Universal_basic_income",
+        "subquestion": "What are the fiscal implications of funding a universal basic income for governments?",
+        "subquestion_index": 3,
+        "supporting_excerpt": "### Work\n\n[edit]\n\nMany critics of basic income argue that people, in general, will work less, which in turn means less tax revenue and less money for the state and local governments. Studies include:"
+      }
+    ],
+    "final_team_a_argument": "Team B's response: While proponents argue that universal basic income (UBI) improves school attendance, health, and financial stability, the strongest counterpoint is the evidence of reduced labor market participation. A 2026 meta-analysis found that UBI programs, particularly those with larger participant numbers, resulted in a -3.2% net employment effect, indicating a significant reduction in workforce participation. This undermines the claim that UBI enhances financial stability without negative consequences, as it suggests UBI may reduce tax revenue and economic productivity, posing substantial economic risks.",
+    "final_team_b_argument": "Team B's response: The strongest counterpoint to the claim that universal basic income (UBI) improves financial stability is the evidence of reduced labor market participation. A 2026 meta-analysis found that UBI programs, particularly those with larger participant numbers, resulted in a -3.2% net employment effect, indicating a significant reduction in workforce participation. This undermines the claim that UBI enhances financial stability without negative consequences, as it suggests UBI may reduce tax revenue and economic productivity, posing substantial economic risks.",
+    "neutral_synthesis": "The debate over whether governments should provide universal basic income (UBI) to all adult citizens centers on its potential benefits and drawbacks, particularly regarding labor market participation and economic impacts. Proponents highlight that UBI pilot programs have shown positive outcomes, such as increased school attendance, improved health, and greater financial stability, without corresponding increases in negative behaviors like unemployment claims or alcohol abuse. They also argue that UBI can allow individuals, especially students, to pursue education or work in fields of personal interest rather than solely for economic gain. Additionally, some studies suggest that UBI could reduce inequality and improve welfare, especially when funded through specific fiscal policies like tax reforms.\n\nHowever, critics emphasize concerns about reduced labor market participation. A 2026 meta-analysis of UBI programs found that, in some cases, particularly those with larger participant numbers, UBI led to a -3.2% net employment effect, indicating a significant reduction in workforce participation. This raises concerns about potential decreases in tax revenue and economic productivity, which could pose substantial economic risks. Other studies suggest that UBI may lead to shorter working hours, reduced unemployment spells, and lower individual income for some recipients, without clear improvements in employment quality or human capital investment.\n\nThe central tradeoff in the debate lies between the potential for UBI to enhance financial stability and reduce inequality, on one hand, and the risk of reduced labor market participation and economic productivity, on the other. The effectiveness of UBI appears to depend on factors such as the design of the program, the method of funding, and the specific context in which it is implemented. While some evidence suggests that UBI may have minimal adverse effects on labor market participation, as seen in cases like Alaska's Permanent Fund Dividend, other studies indicate more significant negative impacts. The long-term effects of UBI remain uncertain, and further research and experimentation are needed to fully understand its potential benefits and challenges.",
+    "raw_research_findings": [
+      {
+        "claim": "As with other policies and models, universal basic income has its advantages and disadvantages. Supporters point out that many UBI pilot programs have resulted in increased school attendance and employment, greater community health, and improved financial stability with no corresponding increase in negative traits, such as unemployment claims or alcohol abuse. Supporters also argue that UBI enables college students to receive a degree in what interests them and not just a degree that will make [...] ### Norway\n\nThe country whose system most closely resembles universal basic income is Norway. Norway is a welfare state, ensuring that all Norwegian citizens residing in the country have access to education, universal health care, and income in the form of social security or benefits. However, recipients of the monetary benefit must still meet specific conditions. For instance, they must seek work, abide by the law, participate in elections, and pay taxes.\n\n### Finland [...] In the past four decades, many countries including Finland, Canada, the United States, and Brazil (see map above and table at page bottom for full list) have discussed and debated UBI models. Many governments and private organizations have gone on to implement pilot programs to determine the practical cost of universal basic income, as well as its effectiveness in fighting poverty and its effects. The Basic Income Earth Network (BEIN) is one of many groups devoted to the promotion and",
+        "finding_index": 1,
+        "source_title": "Countries with Universal Basic Income 2026",
+        "source_type": "web",
+        "source_url": "https://worldpopulationreview.com/country-rankings/countries-with-universal-basic-income",
+        "subquestion": "What are the economic impacts of implementing a universal basic income program in different countries?",
+        "subquestion_index": 1,
+        "supporting_excerpt": "As with other policies and models, universal basic income has its advantages and disadvantages. Supporters point out that many UBI pilot programs have resulted in increased school attendance and employment, greater community health, and improved financial stability with no corresponding increase in negative traits, such as unemployment claims or alcohol abuse. Supporters also argue that UBI enables college students to receive a degree in what interests them and not just a degree that will make [...] ### Norway\n\nThe country whose system most closely resembles universal basic income is Norway. Norway is a welfare state, ensuring that all Norwegian citizens residing in the country have access to education, universal health care, and income in the form of social security or benefits. However, recipients of the monetary benefit must still meet specific conditions. For instance, they must seek work, abide by the law, participate in elections, and pay taxes.\n\n### Finland [...] In the past four decades, many countries including Finland, Canada, the United States, and Brazil (see map above and table at page bottom for full list) have discussed and debated UBI models. Many governments and private organizations have gone on to implement pilot programs to determine the practical cost of universal basic income, as well as its effectiveness in fighting poverty and its effects. The Basic Income Earth Network (BEIN) is one of many groups devoted to the promotion and"
+      },
+      {
+        "claim": "in 2026 compared to Baseline, equivalent to an additional 60,018 men with CMD (95% UI −186,264, 291,814); however, UIs were very wide. The only population subgroups who potentially benefited from the implementation of Full UBI by 2026 were women (−0.15% [95% UI −1.53, 1.24]) and lone parents (−0.23% [95% UI −6.82, 5.91]), and, again, UIs were wide. [...] mental disorder (CMD) for modelled Universal Basic Income (UBI) policies from 2022–2026. Figure J: Structural Sensitivity Analysis 2, using economic inactivity effects—Estimated prevalence of common mental disorder (CMD) for modelled Universal Basic Income (UBI) policies from 2022–2026. Table J: Structural Sensitivity Analyses—Estimated prevalence of common mental disorders and mental health inequalities in baseline scenario and three simulated Universal Basic Income (UBI) scenarios from [...] mental disorder (CMD) for modelled Universal Basic Income (UBI) policies from 2022–2026. Figure J: Structural Sensitivity Analysis 2, using economic inactivity effects—Estimated prevalence of common mental disorder (CMD) for modelled Universal Basic Income (UBI) policies from 2022–2026. Table J: Structural Sensitivity Analyses—Estimated prevalence of common mental disorders and mental health inequalities in baseline scenario and three simulated Universal Basic Income (UBI) scenarios from",
+        "finding_index": 2,
+        "source_title": "Short-term impacts of Universal Basic Income on population mental health inequalities in the UK: A microsimulation modelling study",
+        "source_type": "web",
+        "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10947674",
+        "subquestion": "What are the economic impacts of implementing a universal basic income program in different countries?",
+        "subquestion_index": 1,
+        "supporting_excerpt": "in 2026 compared to Baseline, equivalent to an additional 60,018 men with CMD (95% UI −186,264, 291,814); however, UIs were very wide. The only population subgroups who potentially benefited from the implementation of Full UBI by 2026 were women (−0.15% [95% UI −1.53, 1.24]) and lone parents (−0.23% [95% UI −6.82, 5.91]), and, again, UIs were wide. [...] mental disorder (CMD) for modelled Universal Basic Income (UBI) policies from 2022–2026. Figure J: Structural Sensitivity Analysis 2, using economic inactivity effects—Estimated prevalence of common mental disorder (CMD) for modelled Universal Basic Income (UBI) policies from 2022–2026. Table J: Structural Sensitivity Analyses—Estimated prevalence of common mental disorders and mental health inequalities in baseline scenario and three simulated Universal Basic Income (UBI) scenarios from [...] mental disorder (CMD) for modelled Universal Basic Income (UBI) policies from 2022–2026. Figure J: Structural Sensitivity Analysis 2, using economic inactivity effects—Estimated prevalence of common mental disorder (CMD) for modelled Universal Basic Income (UBI) policies from 2022–2026. Table J: Structural Sensitivity Analyses—Estimated prevalence of common mental disorders and mental health inequalities in baseline scenario and three simulated Universal Basic Income (UBI) scenarios from"
+      },
+      {
+        "claim": "A 2026 meta-analysis conducted by the American Enterprise Institute of 122 UBI programs found that among the thirty randomized pilots with published results, the net employment effect was +0.8%. However, in the four programs with 500 or more participants, the net employment effect was -3.2%. The median study N \"Sampling (statistics)\") was 151 people. Studies that tracked program attrition found an average dropout rate of 37%.\n\n### Philosophy and morality\n\n[edit] [...] As a response to the COVID-19 pandemic and its economic impact, universal basic income and similar proposals such as helicopter money and cash transfers were increasingly discussed across the world. Most countries implemented forms of partial unemployment schemes, which effectively subsidized workers' incomes without a work requirement. Around ninety countries and regions including the United States, Spain, Hong Kong, and Japan introduced temporary direct cash transfer programs to their [...] 96. ↑ \"Free money wouldn't make people lazy – but it could revolutionise work | Anna Dent\". The Guardian. 12 February 2019. Archived from the original on 25 July 2021. Retrieved 27 May 2021.\n97. ↑ \"What 122 Universal Basic Income Experiments Actually Show | The Daily Economy\". 20 March 2026. Retrieved 20 March 2026.",
+        "finding_index": 3,
+        "source_title": "Universal basic income",
+        "source_type": "web",
+        "source_url": "https://en.wikipedia.org/wiki/Universal_basic_income",
+        "subquestion": "What are the economic impacts of implementing a universal basic income program in different countries?",
+        "subquestion_index": 1,
+        "supporting_excerpt": "A 2026 meta-analysis conducted by the American Enterprise Institute of 122 UBI programs found that among the thirty randomized pilots with published results, the net employment effect was +0.8%. However, in the four programs with 500 or more participants, the net employment effect was -3.2%. The median study N \"Sampling (statistics)\") was 151 people. Studies that tracked program attrition found an average dropout rate of 37%.\n\n### Philosophy and morality\n\n[edit] [...] As a response to the COVID-19 pandemic and its economic impact, universal basic income and similar proposals such as helicopter money and cash transfers were increasingly discussed across the world. Most countries implemented forms of partial unemployment schemes, which effectively subsidized workers' incomes without a work requirement. Around ninety countries and regions including the United States, Spain, Hong Kong, and Japan introduced temporary direct cash transfer programs to their [...] 96. ↑ \"Free money wouldn't make people lazy – but it could revolutionise work | Anna Dent\". The Guardian. 12 February 2019. Archived from the original on 25 July 2021. Retrieved 27 May 2021.\n97. ↑ \"What 122 Universal Basic Income Experiments Actually Show | The Daily Economy\". 20 March 2026. Retrieved 20 March 2026."
+      },
+      {
+        "claim": "Findings: The findings reveal that there exists a contextual and methodological gap relating to the impact of Universal Basic Income on labour market participation. Preliminary empirical review revealed the importance of considering both the short-term and long-term effects of Universal Basic Income (UBI) on labor market participation. While some evidence suggested that UBI may have led to modest reductions in employment rates, particularly among certain demographic groups or in specific [...] that support labor market participation. Overall, the conclusion underscored the complexity of the relationship between UBI and labor market participation, emphasizing the need for further research and experimentation to fully understand its potential effects and ensure its successful implementation. [...] were advised to carefully design UBI policies to balance promoting labor market participation and providing financial security, considering the diverse impacts on different demographic groups. The study highlighted the importance of addressing disincentives to work, promoting inclusive growth, and continuously monitoring and evaluating UBI programs to assess their long-term impact. Additionally, the study emphasized leveraging UBI as a tool for social equity and economic empowerment. Through",
+        "finding_index": 1,
+        "source_title": "The Impact of Universal Basic Income on Labor Market Participation\n\t\t\t\t\t\t\t| International Journal of Economic Policy",
+        "source_type": "web",
+        "source_url": "https://carijournals.org/journals/IJECOP/article/view/1761",
+        "subquestion": "How does universal basic income affect labor market participation and employment rates?",
+        "subquestion_index": 2,
+        "supporting_excerpt": "Findings: The findings reveal that there exists a contextual and methodological gap relating to the impact of Universal Basic Income on labour market participation. Preliminary empirical review revealed the importance of considering both the short-term and long-term effects of Universal Basic Income (UBI) on labor market participation. While some evidence suggested that UBI may have led to modest reductions in employment rates, particularly among certain demographic groups or in specific [...] that support labor market participation. Overall, the conclusion underscored the complexity of the relationship between UBI and labor market participation, emphasizing the need for further research and experimentation to fully understand its potential effects and ensure its successful implementation. [...] were advised to carefully design UBI policies to balance promoting labor market participation and providing financial security, considering the diverse impacts on different demographic groups. The study highlighted the importance of addressing disincentives to work, promoting inclusive growth, and continuously monitoring and evaluating UBI programs to assess their long-term impact. Additionally, the study emphasized leveraging UBI as a tool for social equity and economic empowerment. Through"
+      },
+      {
+        "claim": "Labor market participation decreased by 2.0 percentage points.\n   Participants worked 1.3 to 1.4 fewer hours per week.\n   The partners of participants also reduced their working hours by a similar amount.\n\nAdditionally, individual income, excluding the transfers, fell by about $1,500 per year relative to the control group. The length of unemployment spells increased by an average of 1.1 months among those in the treatment group compared to the control group. [...] The experiment involved 1,000 low-income individuals receiving $1,000 per month unconditionally for three years. A control group of 2,000 participants received just $50 per month. The average household income of participants in 2019 was around $29,900, making the transfers a significant 40% boost in household income.\n\nThe study’s findings indicate a reduction in labor market participation among UBI recipients. Specifically: [...] Despite detailed inquiries into job quality and amenities, the study found no significant improvements in employment quality or human capital investments. Although younger participants showed a tendency to pursue more formal education, the overall results suggest a moderate reduction in labor supply without other offsetting productive activities.",
+        "finding_index": 2,
+        "source_title": "Study: Recipients of universal basic income work fewer hours, are less productive",
+        "source_type": "web",
+        "source_url": "https://www.carolinajournal.com/study-recipients-of-universal-basic-income-work-fewer-hours-are-less-productive",
+        "subquestion": "How does universal basic income affect labor market participation and employment rates?",
+        "subquestion_index": 2,
+        "supporting_excerpt": "Labor market participation decreased by 2.0 percentage points.\n   Participants worked 1.3 to 1.4 fewer hours per week.\n   The partners of participants also reduced their working hours by a similar amount.\n\nAdditionally, individual income, excluding the transfers, fell by about $1,500 per year relative to the control group. The length of unemployment spells increased by an average of 1.1 months among those in the treatment group compared to the control group. [...] The experiment involved 1,000 low-income individuals receiving $1,000 per month unconditionally for three years. A control group of 2,000 participants received just $50 per month. The average household income of participants in 2019 was around $29,900, making the transfers a significant 40% boost in household income.\n\nThe study’s findings indicate a reduction in labor market participation among UBI recipients. Specifically: [...] Despite detailed inquiries into job quality and amenities, the study found no significant improvements in employment quality or human capital investments. Although younger participants showed a tendency to pursue more formal education, the overall results suggest a moderate reduction in labor supply without other offsetting productive activities."
+      },
+      {
+        "claim": "A central concern surrounding UBI is its impact on individuals' motivation to work. Critics worry that providing a guaranteed income might disincentivize people from seeking employment or pursuing career advancement. However, numerous UBI trials and experiments have produced contrasting findings. For instance, a study on Alaska's Permanent Fund Dividend, a form of UBI, indicated minimal adverse effects on labor market participation. The supporters also argue that UBI could enable individuals to",
+        "finding_index": 3,
+        "source_title": "Cogent | Blog | Universal Basic Income And The Future Of Work",
+        "source_type": "web",
+        "source_url": "https://cogentinfo.com/resources/universal-basic-income-and-the-future-of-work-3460c",
+        "subquestion": "How does universal basic income affect labor market participation and employment rates?",
+        "subquestion_index": 2,
+        "supporting_excerpt": "A central concern surrounding UBI is its impact on individuals' motivation to work. Critics worry that providing a guaranteed income might disincentivize people from seeking employment or pursuing career advancement. However, numerous UBI trials and experiments have produced contrasting findings. For instance, a study on Alaska's Permanent Fund Dividend, a form of UBI, indicated minimal adverse effects on labor market participation. The supporters also argue that UBI could enable individuals to"
+      },
+      {
+        "claim": "growth, inequality, and welfare depends on the type of fiscal policy adopted by government to fund it, notably the trade-off between increasing the tax base or reducing public spending. First, under normal circumstances, universal basic income funded by completely eliminating oil subsidies appears to be the best policy for reducing inequality while increasing growth and welfare. Second, when the currency union faces a crisis, a universal basic income funded by increases in different taxes is [...] different taxes is more effective in combating stagflation and inequality than a universal basic income funded by total oil subsidy elimination. The welfare analysis confirms that, universal basic income funded by the increase in tax on capital gains and the increase in tax on corporate income is successful in reducing income inequality and consumption inequality and improving households’ living standards, its effects lead to higher welfare gains when the economy faces a crisis rather than the [...] This paper aims to assess tax policy reforms that can sustain universal basic income programs and foster long-term growth and welfare in a currency union that faces fiscal rule constraints and inequality. To address this ongoing government and economics’ debate, we developed a Dynamic Stochastic General Equilibrium Model of universal basic income enriched with three fiscal policy strategies. Results demonstrate that the effectiveness of universal basic income on long-term growth, inequality,",
+        "finding_index": 1,
+        "source_title": "Tax policy reform and universal basic income effectiveness in a currency union: Implications for long-term growth, inequality, and welfare",
+        "source_type": "web",
+        "source_url": "https://www.sciencedirect.com/science/article/pii/S2667319323000186",
+        "subquestion": "What are the fiscal implications of funding a universal basic income for governments?",
+        "subquestion_index": 3,
+        "supporting_excerpt": "growth, inequality, and welfare depends on the type of fiscal policy adopted by government to fund it, notably the trade-off between increasing the tax base or reducing public spending. First, under normal circumstances, universal basic income funded by completely eliminating oil subsidies appears to be the best policy for reducing inequality while increasing growth and welfare. Second, when the currency union faces a crisis, a universal basic income funded by increases in different taxes is [...] different taxes is more effective in combating stagflation and inequality than a universal basic income funded by total oil subsidy elimination. The welfare analysis confirms that, universal basic income funded by the increase in tax on capital gains and the increase in tax on corporate income is successful in reducing income inequality and consumption inequality and improving households’ living standards, its effects lead to higher welfare gains when the economy faces a crisis rather than the [...] This paper aims to assess tax policy reforms that can sustain universal basic income programs and foster long-term growth and welfare in a currency union that faces fiscal rule constraints and inequality. To address this ongoing government and economics’ debate, we developed a Dynamic Stochastic General Equilibrium Model of universal basic income enriched with three fiscal policy strategies. Results demonstrate that the effectiveness of universal basic income on long-term growth, inequality,"
+      },
+      {
+        "claim": "The UBI will remove from government the costs of funding most subsistence benefits - welfare, state pensions, tax credits, and so on, which will allow us to immediately abolish some of the taxes that are a drag on commerce (e.g. VAT and NICs), and it should be possible to reduce or get rid of other unhelpful taxes (e.g. corporation tax, income tax) as government departments learn how to manage their cashflows using temporary loans from businesses and individuals who have spare money and are [...] There are also flows of money from businesses and individuals to government in the form of taxes and government borrowing, and flows from government to individuals and businesses in the form of salaries, welfare payments, interest on government debt, and all the other government spending that goes on. [...] It’s likely that most lending will be done at interest rates of zero or below, which will, over time, get rid of the mountain of positive-interest bearing debt under which we are currently buried. The evils of compound interest will disappear from our lives, as will the costs of servicing government debt.",
+        "finding_index": 2,
+        "source_title": "How to Fund a Universal Basic Income",
+        "source_type": "web",
+        "source_url": "https://citizen-network.org/library/how-to-fund-a-universal-basic-income.html",
+        "subquestion": "What are the fiscal implications of funding a universal basic income for governments?",
+        "subquestion_index": 3,
+        "supporting_excerpt": "The UBI will remove from government the costs of funding most subsistence benefits - welfare, state pensions, tax credits, and so on, which will allow us to immediately abolish some of the taxes that are a drag on commerce (e.g. VAT and NICs), and it should be possible to reduce or get rid of other unhelpful taxes (e.g. corporation tax, income tax) as government departments learn how to manage their cashflows using temporary loans from businesses and individuals who have spare money and are [...] There are also flows of money from businesses and individuals to government in the form of taxes and government borrowing, and flows from government to individuals and businesses in the form of salaries, welfare payments, interest on government debt, and all the other government spending that goes on. [...] It’s likely that most lending will be done at interest rates of zero or below, which will, over time, get rid of the mountain of positive-interest bearing debt under which we are currently buried. The evils of compound interest will disappear from our lives, as will the costs of servicing government debt."
+      },
+      {
+        "claim": "### Work\n\n[edit]\n\nMany critics of basic income argue that people, in general, will work less, which in turn means less tax revenue and less money for the state and local governments. Studies include:",
+        "finding_index": 3,
+        "source_title": "Universal basic income - Wikipedia",
+        "source_type": "web",
+        "source_url": "https://en.wikipedia.org/wiki/Universal_basic_income",
+        "subquestion": "What are the fiscal implications of funding a universal basic income for governments?",
+        "subquestion_index": 3,
+        "supporting_excerpt": "### Work\n\n[edit]\n\nMany critics of basic income argue that people, in general, will work less, which in turn means less tax revenue and less money for the state and local governments. Studies include:"
+      }
+    ],
+    "research_findings": [
+      "Claim: As with other policies and models, universal basic income has its advantages and disadvantages. Supporters point out that many UBI pilot programs have resulted in increased school attendance and employment, greater community health, and improved financial stability with no corresponding increase in negative traits, such as unemployment claims or alcohol abuse. Supporters also argue that UBI enables college students to receive a degree in what interests them and not just a degree that will make [...] ### Norway\n\nThe country whose system most closely resembles universal basic income is Norway. Norway is a welfare state, ensuring that all Norwegian citizens residing in the country have access to education, universal health care, and income in the form of social security or benefits. However, recipients of the monetary benefit must still meet specific conditions. For instance, they must seek work, abide by the law, participate in elections, and pay taxes.\n\n### Finland [...] In the past four decades, many countries including Finland, Canada, the United States, and Brazil (see map above and table at page bottom for full list) have discussed and debated UBI models. Many governments and private organizations have gone on to implement pilot programs to determine the practical cost of universal basic income, as well as its effectiveness in fighting poverty and its effects. The Basic Income Earth Network (BEIN) is one of many groups devoted to the promotion and\nSource: Countries with Universal Basic Income 2026\nSource type: web\nURL: https://worldpopulationreview.com/country-rankings/countries-with-universal-basic-income\nSupporting excerpt: As with other policies and models, universal basic income has its advantages and disadvantages. Supporters point out that many UBI pilot programs have resulted in increased school attendance and employment, greater community health, and improved financial stability with no corresponding increase in negative traits, such as unemployment claims or alcohol abuse. Supporters also argue that UBI enables college students to receive a degree in what interests them and not just a degree that will make [...] ### Norway\n\nThe country whose system most closely resembles universal basic income is Norway. Norway is a welfare state, ensuring that all Norwegian citizens residing in the country have access to education, universal health care, and income in the form of social security or benefits. However, recipients of the monetary benefit must still meet specific conditions. For instance, they must seek work, abide by the law, participate in elections, and pay taxes.\n\n### Finland [...] In the past four decades, many countries including Finland, Canada, the United States, and Brazil (see map above and table at page bottom for full list) have discussed and debated UBI models. Many governments and private organizations have gone on to implement pilot programs to determine the practical cost of universal basic income, as well as its effectiveness in fighting poverty and its effects. The Basic Income Earth Network (BEIN) is one of many groups devoted to the promotion and\nResearch question: What are the economic impacts of implementing a universal basic income program in different countries?\nSubquestion index: 1\nFinding index: 1",
+      "Claim: in 2026 compared to Baseline, equivalent to an additional 60,018 men with CMD (95% UI −186,264, 291,814); however, UIs were very wide. The only population subgroups who potentially benefited from the implementation of Full UBI by 2026 were women (−0.15% [95% UI −1.53, 1.24]) and lone parents (−0.23% [95% UI −6.82, 5.91]), and, again, UIs were wide. [...] mental disorder (CMD) for modelled Universal Basic Income (UBI) policies from 2022–2026. Figure J: Structural Sensitivity Analysis 2, using economic inactivity effects—Estimated prevalence of common mental disorder (CMD) for modelled Universal Basic Income (UBI) policies from 2022–2026. Table J: Structural Sensitivity Analyses—Estimated prevalence of common mental disorders and mental health inequalities in baseline scenario and three simulated Universal Basic Income (UBI) scenarios from [...] mental disorder (CMD) for modelled Universal Basic Income (UBI) policies from 2022–2026. Figure J: Structural Sensitivity Analysis 2, using economic inactivity effects—Estimated prevalence of common mental disorder (CMD) for modelled Universal Basic Income (UBI) policies from 2022–2026. Table J: Structural Sensitivity Analyses—Estimated prevalence of common mental disorders and mental health inequalities in baseline scenario and three simulated Universal Basic Income (UBI) scenarios from\nSource: Short-term impacts of Universal Basic Income on population mental health inequalities in the UK: A microsimulation modelling study\nSource type: web\nURL: https://pmc.ncbi.nlm.nih.gov/articles/PMC10947674\nSupporting excerpt: in 2026 compared to Baseline, equivalent to an additional 60,018 men with CMD (95% UI −186,264, 291,814); however, UIs were very wide. The only population subgroups who potentially benefited from the implementation of Full UBI by 2026 were women (−0.15% [95% UI −1.53, 1.24]) and lone parents (−0.23% [95% UI −6.82, 5.91]), and, again, UIs were wide. [...] mental disorder (CMD) for modelled Universal Basic Income (UBI) policies from 2022–2026. Figure J: Structural Sensitivity Analysis 2, using economic inactivity effects—Estimated prevalence of common mental disorder (CMD) for modelled Universal Basic Income (UBI) policies from 2022–2026. Table J: Structural Sensitivity Analyses—Estimated prevalence of common mental disorders and mental health inequalities in baseline scenario and three simulated Universal Basic Income (UBI) scenarios from [...] mental disorder (CMD) for modelled Universal Basic Income (UBI) policies from 2022–2026. Figure J: Structural Sensitivity Analysis 2, using economic inactivity effects—Estimated prevalence of common mental disorder (CMD) for modelled Universal Basic Income (UBI) policies from 2022–2026. Table J: Structural Sensitivity Analyses—Estimated prevalence of common mental disorders and mental health inequalities in baseline scenario and three simulated Universal Basic Income (UBI) scenarios from\nResearch question: What are the economic impacts of implementing a universal basic income program in different countries?\nSubquestion index: 1\nFinding index: 2",
+      "Claim: A 2026 meta-analysis conducted by the American Enterprise Institute of 122 UBI programs found that among the thirty randomized pilots with published results, the net employment effect was +0.8%. However, in the four programs with 500 or more participants, the net employment effect was -3.2%. The median study N \"Sampling (statistics)\") was 151 people. Studies that tracked program attrition found an average dropout rate of 37%.\n\n### Philosophy and morality\n\n[edit] [...] As a response to the COVID-19 pandemic and its economic impact, universal basic income and similar proposals such as helicopter money and cash transfers were increasingly discussed across the world. Most countries implemented forms of partial unemployment schemes, which effectively subsidized workers' incomes without a work requirement. Around ninety countries and regions including the United States, Spain, Hong Kong, and Japan introduced temporary direct cash transfer programs to their [...] 96. ↑ \"Free money wouldn't make people lazy – but it could revolutionise work | Anna Dent\". The Guardian. 12 February 2019. Archived from the original on 25 July 2021. Retrieved 27 May 2021.\n97. ↑ \"What 122 Universal Basic Income Experiments Actually Show | The Daily Economy\". 20 March 2026. Retrieved 20 March 2026.\nSource: Universal basic income\nSource type: web\nURL: https://en.wikipedia.org/wiki/Universal_basic_income\nSupporting excerpt: A 2026 meta-analysis conducted by the American Enterprise Institute of 122 UBI programs found that among the thirty randomized pilots with published results, the net employment effect was +0.8%. However, in the four programs with 500 or more participants, the net employment effect was -3.2%. The median study N \"Sampling (statistics)\") was 151 people. Studies that tracked program attrition found an average dropout rate of 37%.\n\n### Philosophy and morality\n\n[edit] [...] As a response to the COVID-19 pandemic and its economic impact, universal basic income and similar proposals such as helicopter money and cash transfers were increasingly discussed across the world. Most countries implemented forms of partial unemployment schemes, which effectively subsidized workers' incomes without a work requirement. Around ninety countries and regions including the United States, Spain, Hong Kong, and Japan introduced temporary direct cash transfer programs to their [...] 96. ↑ \"Free money wouldn't make people lazy – but it could revolutionise work | Anna Dent\". The Guardian. 12 February 2019. Archived from the original on 25 July 2021. Retrieved 27 May 2021.\n97. ↑ \"What 122 Universal Basic Income Experiments Actually Show | The Daily Economy\". 20 March 2026. Retrieved 20 March 2026.\nResearch question: What are the economic impacts of implementing a universal basic income program in different countries?\nSubquestion index: 1\nFinding index: 3",
+      "Claim: Findings: The findings reveal that there exists a contextual and methodological gap relating to the impact of Universal Basic Income on labour market participation. Preliminary empirical review revealed the importance of considering both the short-term and long-term effects of Universal Basic Income (UBI) on labor market participation. While some evidence suggested that UBI may have led to modest reductions in employment rates, particularly among certain demographic groups or in specific [...] that support labor market participation. Overall, the conclusion underscored the complexity of the relationship between UBI and labor market participation, emphasizing the need for further research and experimentation to fully understand its potential effects and ensure its successful implementation. [...] were advised to carefully design UBI policies to balance promoting labor market participation and providing financial security, considering the diverse impacts on different demographic groups. The study highlighted the importance of addressing disincentives to work, promoting inclusive growth, and continuously monitoring and evaluating UBI programs to assess their long-term impact. Additionally, the study emphasized leveraging UBI as a tool for social equity and economic empowerment. Through\nSource: The Impact of Universal Basic Income on Labor Market Participation\n\t\t\t\t\t\t\t| International Journal of Economic Policy\nSource type: web\nURL: https://carijournals.org/journals/IJECOP/article/view/1761\nSupporting excerpt: Findings: The findings reveal that there exists a contextual and methodological gap relating to the impact of Universal Basic Income on labour market participation. Preliminary empirical review revealed the importance of considering both the short-term and long-term effects of Universal Basic Income (UBI) on labor market participation. While some evidence suggested that UBI may have led to modest reductions in employment rates, particularly among certain demographic groups or in specific [...] that support labor market participation. Overall, the conclusion underscored the complexity of the relationship between UBI and labor market participation, emphasizing the need for further research and experimentation to fully understand its potential effects and ensure its successful implementation. [...] were advised to carefully design UBI policies to balance promoting labor market participation and providing financial security, considering the diverse impacts on different demographic groups. The study highlighted the importance of addressing disincentives to work, promoting inclusive growth, and continuously monitoring and evaluating UBI programs to assess their long-term impact. Additionally, the study emphasized leveraging UBI as a tool for social equity and economic empowerment. Through\nResearch question: How does universal basic income affect labor market participation and employment rates?\nSubquestion index: 2\nFinding index: 1",
+      "Claim: Labor market participation decreased by 2.0 percentage points.\n   Participants worked 1.3 to 1.4 fewer hours per week.\n   The partners of participants also reduced their working hours by a similar amount.\n\nAdditionally, individual income, excluding the transfers, fell by about $1,500 per year relative to the control group. The length of unemployment spells increased by an average of 1.1 months among those in the treatment group compared to the control group. [...] The experiment involved 1,000 low-income individuals receiving $1,000 per month unconditionally for three years. A control group of 2,000 participants received just $50 per month. The average household income of participants in 2019 was around $29,900, making the transfers a significant 40% boost in household income.\n\nThe study’s findings indicate a reduction in labor market participation among UBI recipients. Specifically: [...] Despite detailed inquiries into job quality and amenities, the study found no significant improvements in employment quality or human capital investments. Although younger participants showed a tendency to pursue more formal education, the overall results suggest a moderate reduction in labor supply without other offsetting productive activities.\nSource: Study: Recipients of universal basic income work fewer hours, are less productive\nSource type: web\nURL: https://www.carolinajournal.com/study-recipients-of-universal-basic-income-work-fewer-hours-are-less-productive\nSupporting excerpt: Labor market participation decreased by 2.0 percentage points.\n   Participants worked 1.3 to 1.4 fewer hours per week.\n   The partners of participants also reduced their working hours by a similar amount.\n\nAdditionally, individual income, excluding the transfers, fell by about $1,500 per year relative to the control group. The length of unemployment spells increased by an average of 1.1 months among those in the treatment group compared to the control group. [...] The experiment involved 1,000 low-income individuals receiving $1,000 per month unconditionally for three years. A control group of 2,000 participants received just $50 per month. The average household income of participants in 2019 was around $29,900, making the transfers a significant 40% boost in household income.\n\nThe study’s findings indicate a reduction in labor market participation among UBI recipients. Specifically: [...] Despite detailed inquiries into job quality and amenities, the study found no significant improvements in employment quality or human capital investments. Although younger participants showed a tendency to pursue more formal education, the overall results suggest a moderate reduction in labor supply without other offsetting productive activities.\nResearch question: How does universal basic income affect labor market participation and employment rates?\nSubquestion index: 2\nFinding index: 2",
+      "Claim: A central concern surrounding UBI is its impact on individuals' motivation to work. Critics worry that providing a guaranteed income might disincentivize people from seeking employment or pursuing career advancement. However, numerous UBI trials and experiments have produced contrasting findings. For instance, a study on Alaska's Permanent Fund Dividend, a form of UBI, indicated minimal adverse effects on labor market participation. The supporters also argue that UBI could enable individuals to\nSource: Cogent | Blog | Universal Basic Income And The Future Of Work\nSource type: web\nURL: https://cogentinfo.com/resources/universal-basic-income-and-the-future-of-work-3460c\nSupporting excerpt: A central concern surrounding UBI is its impact on individuals' motivation to work. Critics worry that providing a guaranteed income might disincentivize people from seeking employment or pursuing career advancement. However, numerous UBI trials and experiments have produced contrasting findings. For instance, a study on Alaska's Permanent Fund Dividend, a form of UBI, indicated minimal adverse effects on labor market participation. The supporters also argue that UBI could enable individuals to\nResearch question: How does universal basic income affect labor market participation and employment rates?\nSubquestion index: 2\nFinding index: 3",
+      "Claim: growth, inequality, and welfare depends on the type of fiscal policy adopted by government to fund it, notably the trade-off between increasing the tax base or reducing public spending. First, under normal circumstances, universal basic income funded by completely eliminating oil subsidies appears to be the best policy for reducing inequality while increasing growth and welfare. Second, when the currency union faces a crisis, a universal basic income funded by increases in different taxes is [...] different taxes is more effective in combating stagflation and inequality than a universal basic income funded by total oil subsidy elimination. The welfare analysis confirms that, universal basic income funded by the increase in tax on capital gains and the increase in tax on corporate income is successful in reducing income inequality and consumption inequality and improving households’ living standards, its effects lead to higher welfare gains when the economy faces a crisis rather than the [...] This paper aims to assess tax policy reforms that can sustain universal basic income programs and foster long-term growth and welfare in a currency union that faces fiscal rule constraints and inequality. To address this ongoing government and economics’ debate, we developed a Dynamic Stochastic General Equilibrium Model of universal basic income enriched with three fiscal policy strategies. Results demonstrate that the effectiveness of universal basic income on long-term growth, inequality,\nSource: Tax policy reform and universal basic income effectiveness in a currency union: Implications for long-term growth, inequality, and welfare\nSource type: web\nURL: https://www.sciencedirect.com/science/article/pii/S2667319323000186\nSupporting excerpt: growth, inequality, and welfare depends on the type of fiscal policy adopted by government to fund it, notably the trade-off between increasing the tax base or reducing public spending. First, under normal circumstances, universal basic income funded by completely eliminating oil subsidies appears to be the best policy for reducing inequality while increasing growth and welfare. Second, when the currency union faces a crisis, a universal basic income funded by increases in different taxes is [...] different taxes is more effective in combating stagflation and inequality than a universal basic income funded by total oil subsidy elimination. The welfare analysis confirms that, universal basic income funded by the increase in tax on capital gains and the increase in tax on corporate income is successful in reducing income inequality and consumption inequality and improving households’ living standards, its effects lead to higher welfare gains when the economy faces a crisis rather than the [...] This paper aims to assess tax policy reforms that can sustain universal basic income programs and foster long-term growth and welfare in a currency union that faces fiscal rule constraints and inequality. To address this ongoing government and economics’ debate, we developed a Dynamic Stochastic General Equilibrium Model of universal basic income enriched with three fiscal policy strategies. Results demonstrate that the effectiveness of universal basic income on long-term growth, inequality,\nResearch question: What are the fiscal implications of funding a universal basic income for governments?\nSubquestion index: 3\nFinding index: 1",
+      "Claim: The UBI will remove from government the costs of funding most subsistence benefits - welfare, state pensions, tax credits, and so on, which will allow us to immediately abolish some of the taxes that are a drag on commerce (e.g. VAT and NICs), and it should be possible to reduce or get rid of other unhelpful taxes (e.g. corporation tax, income tax) as government departments learn how to manage their cashflows using temporary loans from businesses and individuals who have spare money and are [...] There are also flows of money from businesses and individuals to government in the form of taxes and government borrowing, and flows from government to individuals and businesses in the form of salaries, welfare payments, interest on government debt, and all the other government spending that goes on. [...] It’s likely that most lending will be done at interest rates of zero or below, which will, over time, get rid of the mountain of positive-interest bearing debt under which we are currently buried. The evils of compound interest will disappear from our lives, as will the costs of servicing government debt.\nSource: How to Fund a Universal Basic Income\nSource type: web\nURL: https://citizen-network.org/library/how-to-fund-a-universal-basic-income.html\nSupporting excerpt: The UBI will remove from government the costs of funding most subsistence benefits - welfare, state pensions, tax credits, and so on, which will allow us to immediately abolish some of the taxes that are a drag on commerce (e.g. VAT and NICs), and it should be possible to reduce or get rid of other unhelpful taxes (e.g. corporation tax, income tax) as government departments learn how to manage their cashflows using temporary loans from businesses and individuals who have spare money and are [...] There are also flows of money from businesses and individuals to government in the form of taxes and government borrowing, and flows from government to individuals and businesses in the form of salaries, welfare payments, interest on government debt, and all the other government spending that goes on. [...] It’s likely that most lending will be done at interest rates of zero or below, which will, over time, get rid of the mountain of positive-interest bearing debt under which we are currently buried. The evils of compound interest will disappear from our lives, as will the costs of servicing government debt.\nResearch question: What are the fiscal implications of funding a universal basic income for governments?\nSubquestion index: 3\nFinding index: 2",
+      "Claim: ### Work\n\n[edit]\n\nMany critics of basic income argue that people, in general, will work less, which in turn means less tax revenue and less money for the state and local governments. Studies include:\nSource: Universal basic income - Wikipedia\nSource type: web\nURL: https://en.wikipedia.org/wiki/Universal_basic_income\nSupporting excerpt: ### Work\n\n[edit]\n\nMany critics of basic income argue that people, in general, will work less, which in turn means less tax revenue and less money for the state and local governments. Studies include:\nResearch question: What are the fiscal implications of funding a universal basic income for governments?\nSubquestion index: 3\nFinding index: 3"
+    ]
+  },
+  "input": {
+    "max_rounds": 2,
+    "novelty_threshold": 0.15,
+    "question": "Should governments provide universal basic income to all adult citizens?",
+    "team_a_stance": "Support the proposition stated in the question.",
+    "team_b_stance": "Oppose the proposition stated in the question."
+  },
+  "metrics": {
+    "metric_version": "1.0",
+    "research_utilization": {
+      "findings": [
+        {
+          "finding_index": 1,
+          "synthesis_coverage": 0.31496062992125984,
+          "team_a_coverage": 0.11023622047244094,
+          "team_b_coverage": 0.07874015748031496,
+          "utilization": 0.31496062992125984
+        },
+        {
+          "finding_index": 2,
+          "synthesis_coverage": 0.16666666666666666,
+          "team_a_coverage": 0.125,
+          "team_b_coverage": 0.1111111111111111,
+          "utilization": 0.16666666666666666
+        },
+        {
+          "finding_index": 3,
+          "synthesis_coverage": 0.20161290322580644,
+          "team_a_coverage": 0.13709677419354838,
+          "team_b_coverage": 0.13709677419354838,
+          "utilization": 0.20161290322580644
+        },
+        {
+          "finding_index": 4,
+          "synthesis_coverage": 0.35106382978723405,
+          "team_a_coverage": 0.14893617021276595,
+          "team_b_coverage": 0.13829787234042554,
+          "utilization": 0.35106382978723405
+        },
+        {
+          "finding_index": 5,
+          "synthesis_coverage": 0.3269230769230769,
+          "team_a_coverage": 0.125,
+          "team_b_coverage": 0.125,
+          "utilization": 0.3269230769230769
+        },
+        {
+          "finding_index": 6,
+          "synthesis_coverage": 0.4444444444444444,
+          "team_a_coverage": 0.15555555555555556,
+          "team_b_coverage": 0.13333333333333333,
+          "utilization": 0.4444444444444444
+        },
+        {
+          "finding_index": 7,
+          "synthesis_coverage": 0.2736842105263158,
+          "team_a_coverage": 0.07368421052631578,
+          "team_b_coverage": 0.06315789473684211,
+          "utilization": 0.2736842105263158
+        },
+        {
+          "finding_index": 8,
+          "synthesis_coverage": 0.21518987341772153,
+          "team_a_coverage": 0.05063291139240506,
+          "team_b_coverage": 0.05063291139240506,
+          "utilization": 0.21518987341772153
+        },
+        {
+          "finding_index": 9,
+          "synthesis_coverage": 0.47619047619047616,
+          "team_a_coverage": 0.23809523809523808,
+          "team_b_coverage": 0.19047619047619047,
+          "utilization": 0.47619047619047616
+        }
+      ],
+      "score": 0.30785956790033353
+    },
+    "summary_policy_compliance": {
+      "matched_pattern_ids": [],
+      "score": 1
+    },
+    "synthesis_representation": {
+      "balance": 0.9752321981424148,
+      "mean_coverage": 0.7770897832817337,
+      "score": 0.7578429775038579,
+      "team_a_coverage": 0.7894736842105263,
+      "team_b_coverage": 0.7647058823529411
+    },
+    "team_novelty": {
+      "jaccard_similarity": 0.676056338028169,
+      "score": 0.323943661971831,
+      "shared_shingle_count": 48,
+      "team_a_shingle_count": 62,
+      "team_b_shingle_count": 57,
+      "union_shingle_count": 71
+    },
+    "word_counts": {
+      "research_finding_words": [
+        227,
+        200,
+        194,
+        178,
+        188,
+        72,
+        225,
+        187,
+        33
+      ],
+      "research_total_words": 1504,
+      "synthesis_words": 323,
+      "team_a_argument_words": 86,
+      "team_b_argument_words": 82,
+      "total_output_words": 1995
+    }
+  },
+  "model_call_counts": {
+    "decomposition": 1,
+    "research_provider_calls": 3,
+    "synthesis": 1,
+    "team_a_argument": 2,
+    "team_b_argument": 2,
+    "total_model_calls": 6
+  },
+  "provenance": {
+    "architecture_version": "final-multi-round-grounded",
+    "implementation_commit": "472495ccad469c96054c4ba1b0ba512c5ac2139c",
+    "metric_version": "1.0",
+    "model": {
+      "name": "qwen3:8b",
+      "reasoning": false,
+      "structured_output_method": "json_schema",
+      "temperature": 0.0
+    },
+    "product_mode": "multi-round",
+    "run_timestamp_utc": "2026-08-05T18:11:59.308887Z",
+    "search": {
+      "endpoint": "https://api.tavily.com/search",
+      "max_results": 3,
+      "provider": "tavily",
+      "settings": {
+        "include_answer": false,
+        "include_images": false,
+        "include_raw_content": false,
+        "search_depth": "basic"
+      },
+      "tool": "search_web"
+    }
+  },
+  "run_record_version": "2.0",
+  "search_evidence": [
+    {
+      "backend_duration_seconds": 2.4302038329769857,
+      "error_category": null,
+      "query": "What are the economic impacts of implementing a universal basic income program in different countries?",
+      "requested_max_results": 3,
+      "research_duration_seconds": 2.447246333002113,
+      "results": [
+        {
+          "provider_score": 0.75616,
+          "rank": 1,
+          "snippet": "As with other policies and models, universal basic income has its advantages and disadvantages. Supporters point out that many UBI pilot programs have resulted in increased school attendance and employment, greater community health, and improved financial stability with no corresponding increase in negative traits, such as unemployment claims or alcohol abuse. Supporters also argue that UBI enables college students to receive a degree in what interests them and not just a degree that will make [...] ### Norway\n\nThe country whose system most closely resembles universal basic income is Norway. Norway is a welfare state, ensuring that all Norwegian citizens residing in the country have access to education, universal health care, and income in the form of social security or benefits. However, recipients of the monetary benefit must still meet specific conditions. For instance, they must seek work, abide by the law, participate in elections, and pay taxes.\n\n### Finland [...] In the past four decades, many countries including Finland, Canada, the United States, and Brazil (see map above and table at page bottom for full list) have discussed and debated UBI models. Many governments and private organizations have gone on to implement pilot programs to determine the practical cost of universal basic income, as well as its effectiveness in fighting poverty and its effects. The Basic Income Earth Network (BEIN) is one of many groups devoted to the promotion and",
+          "source_type": "web",
+          "title": "Countries with Universal Basic Income 2026",
+          "url": "https://worldpopulationreview.com/country-rankings/countries-with-universal-basic-income"
+        },
+        {
+          "provider_score": 0.7099254,
+          "rank": 2,
+          "snippet": "in 2026 compared to Baseline, equivalent to an additional 60,018 men with CMD (95% UI −186,264, 291,814); however, UIs were very wide. The only population subgroups who potentially benefited from the implementation of Full UBI by 2026 were women (−0.15% [95% UI −1.53, 1.24]) and lone parents (−0.23% [95% UI −6.82, 5.91]), and, again, UIs were wide. [...] mental disorder (CMD) for modelled Universal Basic Income (UBI) policies from 2022–2026. Figure J: Structural Sensitivity Analysis 2, using economic inactivity effects—Estimated prevalence of common mental disorder (CMD) for modelled Universal Basic Income (UBI) policies from 2022–2026. Table J: Structural Sensitivity Analyses—Estimated prevalence of common mental disorders and mental health inequalities in baseline scenario and three simulated Universal Basic Income (UBI) scenarios from [...] mental disorder (CMD) for modelled Universal Basic Income (UBI) policies from 2022–2026. Figure J: Structural Sensitivity Analysis 2, using economic inactivity effects—Estimated prevalence of common mental disorder (CMD) for modelled Universal Basic Income (UBI) policies from 2022–2026. Table J: Structural Sensitivity Analyses—Estimated prevalence of common mental disorders and mental health inequalities in baseline scenario and three simulated Universal Basic Income (UBI) scenarios from",
+          "source_type": "web",
+          "title": "Short-term impacts of Universal Basic Income on population mental health inequalities in the UK: A microsimulation modelling study",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10947674"
+        },
+        {
+          "provider_score": 0.6445166,
+          "rank": 3,
+          "snippet": "A 2026 meta-analysis conducted by the American Enterprise Institute of 122 UBI programs found that among the thirty randomized pilots with published results, the net employment effect was +0.8%. However, in the four programs with 500 or more participants, the net employment effect was -3.2%. The median study N \"Sampling (statistics)\") was 151 people. Studies that tracked program attrition found an average dropout rate of 37%.\n\n### Philosophy and morality\n\n[edit] [...] As a response to the COVID-19 pandemic and its economic impact, universal basic income and similar proposals such as helicopter money and cash transfers were increasingly discussed across the world. Most countries implemented forms of partial unemployment schemes, which effectively subsidized workers' incomes without a work requirement. Around ninety countries and regions including the United States, Spain, Hong Kong, and Japan introduced temporary direct cash transfer programs to their [...] 96. ↑ \"Free money wouldn't make people lazy – but it could revolutionise work | Anna Dent\". The Guardian. 12 February 2019. Archived from the original on 25 July 2021. Retrieved 27 May 2021.\n97. ↑ \"What 122 Universal Basic Income Experiments Actually Show | The Daily Economy\". 20 March 2026. Retrieved 20 March 2026.",
+          "source_type": "web",
+          "title": "Universal basic income",
+          "url": "https://en.wikipedia.org/wiki/Universal_basic_income"
+        }
+      ],
+      "settings": {
+        "include_answer": false,
+        "include_images": false,
+        "include_raw_content": false,
+        "search_depth": "basic"
+      },
+      "status": "success",
+      "subquestion_index": 1
+    },
+    {
+      "backend_duration_seconds": 1.5513250409858301,
+      "error_category": null,
+      "query": "How does universal basic income affect labor market participation and employment rates?",
+      "requested_max_results": 3,
+      "research_duration_seconds": 1.5829742919886485,
+      "results": [
+        {
+          "provider_score": 0.9323611,
+          "rank": 1,
+          "snippet": "Findings: The findings reveal that there exists a contextual and methodological gap relating to the impact of Universal Basic Income on labour market participation. Preliminary empirical review revealed the importance of considering both the short-term and long-term effects of Universal Basic Income (UBI) on labor market participation. While some evidence suggested that UBI may have led to modest reductions in employment rates, particularly among certain demographic groups or in specific [...] that support labor market participation. Overall, the conclusion underscored the complexity of the relationship between UBI and labor market participation, emphasizing the need for further research and experimentation to fully understand its potential effects and ensure its successful implementation. [...] were advised to carefully design UBI policies to balance promoting labor market participation and providing financial security, considering the diverse impacts on different demographic groups. The study highlighted the importance of addressing disincentives to work, promoting inclusive growth, and continuously monitoring and evaluating UBI programs to assess their long-term impact. Additionally, the study emphasized leveraging UBI as a tool for social equity and economic empowerment. Through",
+          "source_type": "web",
+          "title": "The Impact of Universal Basic Income on Labor Market Participation\n\t\t\t\t\t\t\t| International Journal of Economic Policy",
+          "url": "https://carijournals.org/journals/IJECOP/article/view/1761"
+        },
+        {
+          "provider_score": 0.86331123,
+          "rank": 2,
+          "snippet": "Labor market participation decreased by 2.0 percentage points.\n   Participants worked 1.3 to 1.4 fewer hours per week.\n   The partners of participants also reduced their working hours by a similar amount.\n\nAdditionally, individual income, excluding the transfers, fell by about $1,500 per year relative to the control group. The length of unemployment spells increased by an average of 1.1 months among those in the treatment group compared to the control group. [...] The experiment involved 1,000 low-income individuals receiving $1,000 per month unconditionally for three years. A control group of 2,000 participants received just $50 per month. The average household income of participants in 2019 was around $29,900, making the transfers a significant 40% boost in household income.\n\nThe study’s findings indicate a reduction in labor market participation among UBI recipients. Specifically: [...] Despite detailed inquiries into job quality and amenities, the study found no significant improvements in employment quality or human capital investments. Although younger participants showed a tendency to pursue more formal education, the overall results suggest a moderate reduction in labor supply without other offsetting productive activities.",
+          "source_type": "web",
+          "title": "Study: Recipients of universal basic income work fewer hours, are less productive",
+          "url": "https://www.carolinajournal.com/study-recipients-of-universal-basic-income-work-fewer-hours-are-less-productive"
+        },
+        {
+          "provider_score": 0.8047902,
+          "rank": 3,
+          "snippet": "A central concern surrounding UBI is its impact on individuals' motivation to work. Critics worry that providing a guaranteed income might disincentivize people from seeking employment or pursuing career advancement. However, numerous UBI trials and experiments have produced contrasting findings. For instance, a study on Alaska's Permanent Fund Dividend, a form of UBI, indicated minimal adverse effects on labor market participation. The supporters also argue that UBI could enable individuals to",
+          "source_type": "web",
+          "title": "Cogent | Blog | Universal Basic Income And The Future Of Work",
+          "url": "https://cogentinfo.com/resources/universal-basic-income-and-the-future-of-work-3460c"
+        }
+      ],
+      "settings": {
+        "include_answer": false,
+        "include_images": false,
+        "include_raw_content": false,
+        "search_depth": "basic"
+      },
+      "status": "success",
+      "subquestion_index": 2
+    },
+    {
+      "backend_duration_seconds": 1.6731452089734375,
+      "error_category": null,
+      "query": "What are the fiscal implications of funding a universal basic income for governments?",
+      "requested_max_results": 3,
+      "research_duration_seconds": 1.6885679580154829,
+      "results": [
+        {
+          "provider_score": 0.8170061,
+          "rank": 1,
+          "snippet": "growth, inequality, and welfare depends on the type of fiscal policy adopted by government to fund it, notably the trade-off between increasing the tax base or reducing public spending. First, under normal circumstances, universal basic income funded by completely eliminating oil subsidies appears to be the best policy for reducing inequality while increasing growth and welfare. Second, when the currency union faces a crisis, a universal basic income funded by increases in different taxes is [...] different taxes is more effective in combating stagflation and inequality than a universal basic income funded by total oil subsidy elimination. The welfare analysis confirms that, universal basic income funded by the increase in tax on capital gains and the increase in tax on corporate income is successful in reducing income inequality and consumption inequality and improving households’ living standards, its effects lead to higher welfare gains when the economy faces a crisis rather than the [...] This paper aims to assess tax policy reforms that can sustain universal basic income programs and foster long-term growth and welfare in a currency union that faces fiscal rule constraints and inequality. To address this ongoing government and economics’ debate, we developed a Dynamic Stochastic General Equilibrium Model of universal basic income enriched with three fiscal policy strategies. Results demonstrate that the effectiveness of universal basic income on long-term growth, inequality,",
+          "source_type": "web",
+          "title": "Tax policy reform and universal basic income effectiveness in a currency union: Implications for long-term growth, inequality, and welfare",
+          "url": "https://www.sciencedirect.com/science/article/pii/S2667319323000186"
+        },
+        {
+          "provider_score": 0.72768575,
+          "rank": 2,
+          "snippet": "The UBI will remove from government the costs of funding most subsistence benefits - welfare, state pensions, tax credits, and so on, which will allow us to immediately abolish some of the taxes that are a drag on commerce (e.g. VAT and NICs), and it should be possible to reduce or get rid of other unhelpful taxes (e.g. corporation tax, income tax) as government departments learn how to manage their cashflows using temporary loans from businesses and individuals who have spare money and are [...] There are also flows of money from businesses and individuals to government in the form of taxes and government borrowing, and flows from government to individuals and businesses in the form of salaries, welfare payments, interest on government debt, and all the other government spending that goes on. [...] It’s likely that most lending will be done at interest rates of zero or below, which will, over time, get rid of the mountain of positive-interest bearing debt under which we are currently buried. The evils of compound interest will disappear from our lives, as will the costs of servicing government debt.",
+          "source_type": "web",
+          "title": "How to Fund a Universal Basic Income",
+          "url": "https://citizen-network.org/library/how-to-fund-a-universal-basic-income.html"
+        },
+        {
+          "provider_score": 0.680136,
+          "rank": 3,
+          "snippet": "### Work\n\n[edit]\n\nMany critics of basic income argue that people, in general, will work less, which in turn means less tax revenue and less money for the state and local governments. Studies include:",
+          "source_type": "web",
+          "title": "Universal basic income - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Universal_basic_income"
+        }
+      ],
+      "settings": {
+        "include_answer": false,
+        "include_images": false,
+        "include_raw_content": false,
+        "search_depth": "basic"
+      },
+      "status": "success",
+      "subquestion_index": 3
+    }
+  ],
+  "termination": {
+    "reason": "max_rounds",
+    "stop": true,
+    "team_a_novelty": 0.9789473684210527,
+    "team_b_novelty": 0.8301886792452831
+  },
+  "timings": {
+    "debate": [
+      {
+        "duration_seconds": 18.29813929204829,
+        "error_category": null,
+        "round_number": 1,
+        "stage": "team_a_argument",
+        "status": "success",
+        "team": "team_a"
+      },
+      {
+        "duration_seconds": 16.570643624989316,
+        "error_category": null,
+        "round_number": 1,
+        "stage": "team_b_argument",
+        "status": "success",
+        "team": "team_b"
+      },
+      {
+        "duration_seconds": 6.212497828528285e-05,
+        "error_category": null,
+        "round_number": 1,
+        "stage": "termination",
+        "status": "success",
+        "team": "system"
+      },
+      {
+        "duration_seconds": 15.93984674999956,
+        "error_category": null,
+        "round_number": 2,
+        "stage": "team_a_argument",
+        "status": "success",
+        "team": "team_a"
+      },
+      {
+        "duration_seconds": 3.552823292033281,
+        "error_category": null,
+        "round_number": 2,
+        "stage": "team_b_argument",
+        "status": "success",
+        "team": "team_b"
+      },
+      {
+        "duration_seconds": 0.0002982920268550515,
+        "error_category": null,
+        "round_number": 2,
+        "stage": "termination",
+        "status": "success",
+        "team": "system"
+      },
+      {
+        "duration_seconds": 23.81592299998738,
+        "error_category": null,
+        "round_number": 2,
+        "stage": "neutral_synthesis",
+        "status": "success",
+        "team": "system"
+      }
+    ],
+    "decomposition": {
+      "duration_seconds": 3.2749559590010904,
+      "error_category": null,
+      "stage": "decomposition",
+      "status": "success"
+    },
+    "research": [
+      {
+        "duration_seconds": 2.447246333002113,
+        "error_category": null,
+        "query": "What are the economic impacts of implementing a universal basic income program in different countries?",
+        "status": "success",
+        "subquestion_index": 1
+      },
+      {
+        "duration_seconds": 1.5829742919886485,
+        "error_category": null,
+        "query": "How does universal basic income affect labor market participation and employment rates?",
+        "status": "success",
+        "subquestion_index": 2
+      },
+      {
+        "duration_seconds": 1.6885679580154829,
+        "error_category": null,
+        "query": "What are the fiscal implications of funding a universal basic income for governments?",
+        "status": "success",
+        "subquestion_index": 3
+      }
+    ],
+    "total_duration_seconds": 83.91222683398519
+  }
+}

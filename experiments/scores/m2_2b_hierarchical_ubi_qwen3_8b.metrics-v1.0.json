@@ -1,0 +1,108 @@
+{
+  "metric_version": "1.0",
+  "research_utilization": {
+    "findings": [
+      {
+        "finding_index": 1,
+        "synthesis_coverage": 0.125,
+        "team_a_coverage": 0.08333333333333333,
+        "team_b_coverage": 0.1111111111111111,
+        "utilization": 0.125
+      },
+      {
+        "finding_index": 2,
+        "synthesis_coverage": 0.2440944881889764,
+        "team_a_coverage": 0.1732283464566929,
+        "team_b_coverage": 0.08661417322834646,
+        "utilization": 0.2440944881889764
+      },
+      {
+        "finding_index": 3,
+        "synthesis_coverage": 0.1388888888888889,
+        "team_a_coverage": 0.17592592592592593,
+        "team_b_coverage": 0.07407407407407407,
+        "utilization": 0.17592592592592593
+      },
+      {
+        "finding_index": 4,
+        "synthesis_coverage": 0.2553191489361702,
+        "team_a_coverage": 0.26595744680851063,
+        "team_b_coverage": 0.14893617021276595,
+        "utilization": 0.26595744680851063
+      },
+      {
+        "finding_index": 5,
+        "synthesis_coverage": 0.2602739726027397,
+        "team_a_coverage": 0.1232876712328767,
+        "team_b_coverage": 0.2602739726027397,
+        "utilization": 0.2602739726027397
+      },
+      {
+        "finding_index": 6,
+        "synthesis_coverage": 0.18867924528301888,
+        "team_a_coverage": 0.14150943396226415,
+        "team_b_coverage": 0.1320754716981132,
+        "utilization": 0.18867924528301888
+      },
+      {
+        "finding_index": 7,
+        "synthesis_coverage": 0.189873417721519,
+        "team_a_coverage": 0.12658227848101267,
+        "team_b_coverage": 0.10126582278481013,
+        "utilization": 0.189873417721519
+      },
+      {
+        "finding_index": 8,
+        "synthesis_coverage": 0.20634920634920634,
+        "team_a_coverage": 0.1111111111111111,
+        "team_b_coverage": 0.12698412698412698,
+        "utilization": 0.20634920634920634
+      },
+      {
+        "finding_index": 9,
+        "synthesis_coverage": 0.29508196721311475,
+        "team_a_coverage": 0.11475409836065574,
+        "team_b_coverage": 0.32786885245901637,
+        "utilization": 0.32786885245901637
+      }
+    ],
+    "score": 0.2204469505932126
+  },
+  "summary_policy_compliance": {
+    "matched_pattern_ids": [],
+    "score": 1
+  },
+  "synthesis_representation": {
+    "balance": 0.8803030303030303,
+    "mean_coverage": 0.5901515151515151,
+    "score": 0.5195121671258034,
+    "team_a_coverage": 0.65,
+    "team_b_coverage": 0.5303030303030303
+  },
+  "team_novelty": {
+    "jaccard_similarity": 0.026143790849673203,
+    "score": 0.9738562091503268,
+    "shared_shingle_count": 4,
+    "team_a_shingle_count": 89,
+    "team_b_shingle_count": 68,
+    "union_shingle_count": 153
+  },
+  "word_counts": {
+    "research_finding_words": [
+      200,
+      227,
+      193,
+      178,
+      141,
+      187,
+      187,
+      114,
+      155
+    ],
+    "research_total_words": 1582,
+    "synthesis_words": 194,
+    "team_a_argument_words": 119,
+    "team_b_argument_words": 98,
+    "total_output_words": 1993
+  }
+}
